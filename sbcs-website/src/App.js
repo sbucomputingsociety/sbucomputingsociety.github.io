@@ -1,14 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Events from './components/Events';
 
 function App() {
+
+  const events = [
+    {
+      title: 'Stony Brook Involvement Fair',
+      image: 'posters/involvement1.png',
+      date: 'Wed, Sept 1, 2021 12:30PM - 2:30PM',
+      location: 'SAC Plaza',
+      description: 'Come meet SBCS at the Stony Brook Involvement Fair!',
+    },
+    {
+      title: 'CEAS Involvement Fair',
+      image: 'posters/involvement2.png',
+      date: 'Wed, Sept 8 2021 12:30PM - 2:30PM',
+      location: 'Engineering Quad',
+      description: 'Come meet SBCS at the CEAS Involvement Fair!',
+    },
+    {
+      title: 'GBM #1: Fishing for Introductions!',
+      image: 'posters/fall2021gbm1.png',
+      date: 'Wed, Sept 15 2021 1:00PM - 2:00PM',
+      location: 'Engineering 145',
+      description:'Come meet the e-board and join us for games + icebreakers + snacks!',
+    },
+  ]
+
+
   return (
     <div className="App">
-      <p className="bg-blue-700">Hello :)</p>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-        Button
-      </button>
-      <p>hello this is part 2</p>
+
+      //Past Event items
+      <Events item={events} />
     </div>
   );
 }
