@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from './components/NavBar';
 import Intro from './components/Intro';
 import Events from './components/Events';
 
@@ -31,6 +32,8 @@ function App() {
 
   return (
     <div className="App text-neutral-700 bg-black">
+
+      <NavBar></NavBar>
 
       {/* Title Section */}
       <Intro></Intro>
