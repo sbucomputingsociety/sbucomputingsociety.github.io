@@ -29,10 +29,13 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App text-neutral-700 bg-black">
 
-      //Past Event items
-      <Events item={events} />
+      {/* Past Events */}
+      <h1 className="antialiased text-6xl text-sky-500 py-5 mx-20">Past Events</h1>
+      <div className="px-10">
+        <Events item={events} />
+      </div>
     </div>
   );
 }
