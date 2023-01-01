@@ -1,4 +1,5 @@
 import './App.css';
+import Intro from './components/Intro';
 import Events from './components/Events';
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
 
   return (
     <div className="App text-neutral-700 bg-black">
+
+      {/* Title Section */}
+      <Intro></Intro>
 
       {/* Past Events */}
       <h1 className="antialiased text-6xl text-sky-500 py-5 mx-20">Past Events</h1>
