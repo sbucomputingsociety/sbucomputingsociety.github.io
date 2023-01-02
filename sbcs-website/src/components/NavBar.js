@@ -12,7 +12,7 @@ function NavBar() {
 
     return (
         <header>
-            <img className="logo scale-50" src='logos/SBCSlogo-removebg-preview.png' alt='logo'></img>
+            <img className="logo scale-45" src='logos/sbcs-web-logo-b-removebg-preview.png' alt='logo'></img>
             <nav ref={navRef}>
                 <a href="/#">Home</a>
                 <a href="/#">Team</a>

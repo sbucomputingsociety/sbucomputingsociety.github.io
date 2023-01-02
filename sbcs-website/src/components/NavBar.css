@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 :root{
-    --mainColor: rgb(0, 0, 0);
-    --mainColorLighter: rgb(46, 46, 46);
-    --secondaryColor: rgb(56, 141, 201);
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --secondaryColor: #FACA4E;
     --textColor: rgb(255, 255, 255);
 }
 
@@ -15,16 +16,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    border: 7px solid rgb(0, 0, 0);
+    height: 95px;
     padding: 0;
+    padding-right: 10px;
     background-color: var(--mainColor);
     color: var(--textColor);
-}
-
-.logo{
-    /* position: absolute;
-    top: -205px;
-    left: -120px; */
+    font-size: 18px;
 }
 
 nav a{
@@ -48,7 +46,6 @@ header .nav-btn {
     color: var(--textColor);
     visibility: hidden;
     opacity: 0;
-    font-size: 1.8rem;
 }
 
 @media only screen and  (max-width: 1024px){

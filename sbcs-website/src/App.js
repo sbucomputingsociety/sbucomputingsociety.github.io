@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
 import Events from './components/Events';
+import Sponsors from './components/Sponsors';
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
 
 
   return (
-    <div className="App text-neutral-700 bg-black">
+    <div className="App text-neutral-700 bg-white">
 
       <NavBar></NavBar>
 
@@ -43,6 +44,11 @@ function App() {
       <div className="px-10">
         <Events item={events} />
       </div>
+
+      {/* Sponsors */}
+      <Sponsors></Sponsors>
+
+
     </div>
   );
 }

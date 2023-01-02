@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      scale: {
+        '45': '.45',
+      },
       maxHeight: {
         '500': '500px',
       },
