@@ -1,0 +1,16 @@
+.btn-float{
+    position: relative;
+    top: 25px;
+    right: -330px;
+}
+
+.box-float{
+    position: relative;
+    right: -10px;
+
+}
+
+.frame-float{
+    position: relative;
+    left: 40px;
+}

@@ -26,6 +26,8 @@ module.exports = {
         'cs-black': '#09101c',
 
         'main-blue': '#3461FF',
+        'hover-blue': '#204be8',
+        'hover-gray': '#a5a198',
         'main-yellow': '#FACA4E',
         'lighter-blue': '#C3E2FF',
         'main-gray': '#C9C6BF',
