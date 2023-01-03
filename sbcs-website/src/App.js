@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import Events from './components/Events';
 import Sponsors from './components/Sponsors';
 import YellowStripe from './components/YellowStripe';
+import AboutUs from './components/AboutUs';
 
 function App() {
 
@@ -37,9 +38,10 @@ function App() {
 
       <NavBar></NavBar>
 
-      {/* Title Section */}
+      {/* Introduction Section */}
       <Intro></Intro>
       <YellowStripe></YellowStripe>
+      <AboutUs></AboutUs>
 
       {/* Past Events */}
       <h1 className="antialiased text-6xl text-sky-500 py-5 mx-20">Past Events</h1>
