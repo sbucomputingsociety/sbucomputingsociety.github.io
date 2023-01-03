@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Intro from './components/Intro';
 import Events from './components/Events';
 import Sponsors from './components/Sponsors';
+import YellowStripe from './components/YellowStripe';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
 
       {/* Title Section */}
       <Intro></Intro>
+      <YellowStripe></YellowStripe>
 
       {/* Past Events */}
       <h1 className="antialiased text-6xl text-sky-500 py-5 mx-20">Past Events</h1>
