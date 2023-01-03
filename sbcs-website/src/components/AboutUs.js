@@ -1,10 +1,12 @@
 import './AboutUs.css';
+import TeamPicSlider from './TeamPicSlider';
+
 
 function AboutUs() {
     return(
         <div className="box-float flex p-20 border-7 border-black bg-lighter-blue">
             <div>
-                <img src="" alt="team"></img>
+                <TeamPicSlider></TeamPicSlider>
                 <div className="frame-float rounded-3xl border-7 border-white py-48 px-56"></div>
             </div>
             <div className="pl-10">
