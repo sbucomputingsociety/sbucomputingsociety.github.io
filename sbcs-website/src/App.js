@@ -32,7 +32,7 @@ function App() {
 
 
   return (
-    <div className="App text-neutral-700 bg-white">
+    <div className="App tracking-wide font-glory text-neutral-700 bg-white">
 
       <NavBar></NavBar>
 

@@ -5,16 +5,46 @@ module.exports = {
   ],
   theme: {
     extend: {
-      scale: {
-        '45': '.45',
+      fontFamily: {
+        'glory': ['Glory'],
       },
+      
+      scale: {
+        // <SBCS> scaling
+        '45': '.45',
+        // computer logo scaling
+        '130': '1.4',
+
+      },
+      // for cards
       maxHeight: {
         '500': '500px',
       },
+      
       colors: {
+        // take out cs-black at the end
         'cs-black': '#09101c',
+
+        'main-blue': '#3461FF',
+        'main-yellow': '#FACA4E',
+        'lighter-blue': '#C3E2FF',
+        'main-gray': '#C9C6BF',
+        'lighter-gray': '#E5E4E0',
       },
+
+
+      // for all borders
+      borderWidth: {
+        '1': '1px',
+        '3': '3px',
+        '5': '5px',
+        '6': '6px',
+        '7': '7px',
+      }
+
     },
+
+    // for cards
     minHeight: {
       '480' : '480px',
     }

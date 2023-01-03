@@ -16,10 +16,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 7px solid rgb(0, 0, 0);
+    border: 6px solid rgb(0, 0, 0);
     height: 95px;
     padding: 0;
-    padding-right: 10px;
     background-color: var(--mainColor);
     color: var(--textColor);
     font-size: 18px;
