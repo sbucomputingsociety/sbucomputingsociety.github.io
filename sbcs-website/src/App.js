@@ -45,8 +45,9 @@ function App() {
       <YellowStripe></YellowStripe>
       <AboutUs></AboutUs>
 
+
+
       {/* Past Events */}
-      <h1 className="antialiased text-6xl text-sky-500 py-5 mx-20">Past Events</h1>
       <div className="px-10">
         <Events item={events} />
       </div>

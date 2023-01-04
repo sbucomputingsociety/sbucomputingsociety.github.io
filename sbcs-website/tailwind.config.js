@@ -15,9 +15,19 @@ module.exports = {
         // computer logo scaling
         '130': '1.4',
         // team photo slider scaling
-        '85': '.85'
+        '70': '.70'
 
       },
+
+      
+      padding: {
+        // picture slider padding
+        '58': '239px',
+        '90': '21rem',
+        '92': '22rem',
+        '94': '23rem',
+      },
+
       // for cards
       maxHeight: {
         '500': '500px',

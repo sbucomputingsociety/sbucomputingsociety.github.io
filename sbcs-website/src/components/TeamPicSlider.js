@@ -10,7 +10,7 @@ function TeamPicSlider() {
 
     return (
         <div>
-            <img src={teamPics[index]} alt="team" className="scale-85 rounded-3xl border-7 border-white"></img>
+            <img src={teamPics[index]} alt="team" className="scale-70 rounded-3xl border-7 border-white"></img>
         </div>
     )
     
