@@ -38,6 +38,7 @@ module.exports = {
         'cs-black': '#09101c',
 
         'main-blue': '#3461FF',
+        'text-blue': '#1978E7',
         'hover-blue': '#204be8',
         'hover-gray': '#a5a198',
         'main-yellow': '#FACA4E',

@@ -17,21 +17,14 @@ function App() {
       image: 'posters/involvement1.png',
       date: 'Wed, Sept 1, 2021 12:30PM - 2:30PM',
       location: 'SAC Plaza',
-      description: 'Come meet SBCS at the Stony Brook Involvement Fair!',
+      description: 'Are you looking to join a CS community? The SBCS will be participating in the CEAS Involvement Fair this coming week. We will be sharing club initiatives and giving out snakcs! Come to meet our board members and learn about ways in which you can participate in our club.',
     },
     {
       title: 'CEAS Involvement Fair',
       image: 'posters/involvement2.png',
       date: 'Wed, Sept 8 2021 12:30PM - 2:30PM',
       location: 'Engineering Quad',
-      description: 'Come meet SBCS at the CEAS Involvement Fair!',
-    },
-    {
-      title: 'GBM #1: Fishing for Introductions!',
-      image: 'posters/fall2021gbm1.png',
-      date: 'Wed, Sept 15 2021 1:00PM - 2:00PM',
-      location: 'Engineering 145',
-      description:'Come meet the e-board and join us for games + icebreakers + snacks!',
+      description: 'Are you looking to join a CS community? The SBCS will be participating in the CEAS Involvement Fair this coming week. We will be sharing club initiatives and giving out snakcs! Come to meet our board members and learn about ways in which you can participate in our club.',
     },
   ]
 
@@ -46,8 +39,7 @@ function App() {
       <AboutUs></AboutUs>
 
 
-
-      {/* Past Events */}
+      {/* Upcoming */}
       <div className="px-10">
         <Events item={events} />
       </div>
