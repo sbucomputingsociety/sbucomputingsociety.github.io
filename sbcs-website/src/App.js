@@ -1,4 +1,6 @@
 import './App.css';
+
+// All relevant components
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
 import Events from './components/Events';
@@ -8,6 +10,7 @@ import AboutUs from './components/AboutUs';
 
 function App() {
 
+  // Past events
   const events = [
     {
       title: 'Stony Brook Involvement Fair',
@@ -31,7 +34,6 @@ function App() {
       description:'Come meet the e-board and join us for games + icebreakers + snacks!',
     },
   ]
-
 
   return (
     <div className="App tracking-wide font-glory text-neutral-700 bg-white">

@@ -10,7 +10,13 @@
 
 }
 
+.photo-float{
+    z-index: 10;
+}
+
 .frame-float{
     position: relative;
-    left: 40px;
+    z-index: 0;
+    left: 130px;
+    top: -140px;
 }

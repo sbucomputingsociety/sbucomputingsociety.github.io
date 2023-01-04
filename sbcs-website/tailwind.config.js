@@ -14,6 +14,8 @@ module.exports = {
         '45': '.45',
         // computer logo scaling
         '130': '1.4',
+        // team photo slider scaling
+        '85': '.85'
 
       },
       // for cards
