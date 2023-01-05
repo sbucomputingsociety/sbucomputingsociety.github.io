@@ -4,7 +4,7 @@ import TeamPicSlider from './TeamPicSlider';
 
 function AboutUs() {
     return(
-        <div className="box-float flex p-20 border-7 border-black bg-lighter-blue">
+        <div className="box-float flex items-center p-20 border-7 border-black bg-lighter-blue">
             <div>
                 <div className="relative">
                     {/* py-58 px-94 */}
