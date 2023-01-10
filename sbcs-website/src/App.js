@@ -7,6 +7,7 @@ import Events from './components/Events';
 import Sponsors from './components/Sponsors';
 import YellowStripe from './components/YellowStripe';
 import AboutUs from './components/AboutUs';
+import StayConnected from './components/StayConnected';
 
 function App() {
 
@@ -43,6 +44,9 @@ function App() {
       <div className="px-10">
         <Events item={events} />
       </div>
+
+      {/* Stay Connected */}
+      <StayConnected></StayConnected>
 
       {/* Sponsors */}
       <Sponsors></Sponsors>
