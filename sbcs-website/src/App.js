@@ -35,21 +35,21 @@ function App() {
       <NavBar></NavBar>
 
       {/* Introduction Section */}
-      <Intro></Intro>
+      {/* <Intro></Intro>
       <YellowStripe></YellowStripe>
-      <AboutUs></AboutUs>
+      <AboutUs></AboutUs> */}
 
 
       {/* Upcoming */}
-      <div className="px-10">
+      {/* <div className="px-10">
         <Events item={events} />
-      </div>
+      </div> */}
 
       {/* Stay Connected */}
-      <StayConnected></StayConnected>
+      {/* <StayConnected></StayConnected> */}
 
       {/* Sponsors */}
-      <Sponsors></Sponsors>
+      {/* <Sponsors></Sponsors> */}
 
 
     </div>
