@@ -37,7 +37,6 @@ nav a:hover{
 }
 
 header .nav-btn {
-    /* padding: 5px;  */
     padding: 0;
     cursor: pointer;
     background: transparent;
@@ -48,10 +47,18 @@ header .nav-btn {
     opacity: 0;
 }
 
+.logo {
+    margin: 4rem;
+    width: 14%;
+    min-width: 133.74px;
+    min-height: 133.74px;
+    height: auto;
+}
+
 @media only screen and  (max-width: 1024px){
     header .nav-btn {
         visibility: visible;
-        padding: 1rem;
+        margin-right: 2rem;
         opacity: 1;
     }
 
@@ -68,7 +75,7 @@ header .nav-btn {
         gap: 1.5 rem;
         background-color: var(--mainColor);
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateY(-100%);
     }
 
     header .responsive_nav{
