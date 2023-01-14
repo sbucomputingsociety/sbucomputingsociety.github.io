@@ -35,8 +35,8 @@ function App() {
       <NavBar></NavBar>
 
       {/* Introduction Section */}
-      {/* <Intro></Intro>
-      <YellowStripe></YellowStripe>
+      <Intro></Intro>
+      {/* <YellowStripe></YellowStripe>
       <AboutUs></AboutUs> */}
 
 

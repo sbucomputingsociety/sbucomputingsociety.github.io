@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+}
+
+.computer-logo {
+    /* margin: 4rem; */
+    width: 130%;
+    min-width: 133.74px;
+    min-height: 133.74px;
+    height: auto;
+}
+
+/* flex items-center py-12 px-20 bg-main-blue mt-3 border-7 border-black border-r-main-blue */
+.outer {
+    display: flex;
+    align-items: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--mainColor);
+    margin-top: 0.75rem;
+    border: solid black 7px;
+}
+
+/* Use Media Query to add a breakpoint at 800px: */
+@media only screen and (max-width:860px) {
+    .computer-logo {
+        display:none;
+    }
+    
+}
