@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  margin: 1rem;
+  margin: 2.5rem;
+  margin-top:1rem;
   /* background-color:rgb(92, 64, 19); */
 }
 
@@ -17,6 +18,13 @@
 
 .divider-brn{
   background-color: rgb(92, 64, 19);
+  padding-top: 0.75rem;
+  border-left: solid black 7px;
+  border-right: solid black 7px;
+}
+
+.divider-ylw{
+  background-color: #FACA4E;;
   padding-top: 0.75rem;
   border-left: solid black 7px;
   border-right: solid black 7px;

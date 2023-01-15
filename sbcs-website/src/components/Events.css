@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --lighterBlue: #C3E2FF;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+    --hoverBlue: #204be8;
+}
+
+.upcoming-box{
+    border: solid black 7px;
+}
+
+/* pb-10 pt-10 text-center text-black text-7xl font-bold pb-5 */
+.home-event-title{
+    padding-top: 3.5rem;
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    font: bold;
+}
+
+/* px-16 flex flex-col justify-start */
+.home-event-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 8rem;
+    padding-right: 8rem;
+
+}
+
+
+@media only screen and  (max-width: 1024px){
+    .home-event-card{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}

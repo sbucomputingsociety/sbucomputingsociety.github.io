@@ -44,9 +44,11 @@ function App() {
 
 
       {/* Upcoming */}
-      {/* <div className="px-10">
+      <div className="divider-ylw"></div>
+      <div className="divider-ylw"></div>
+      <div>
         <Events item={events} />
-      </div> */}
+      </div>
 
       {/* Stay Connected */}
       {/* <StayConnected></StayConnected> */}

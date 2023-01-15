@@ -87,10 +87,13 @@
 
     .about-us-title {
         text-align: center;
+        padding:0;
     }
 
     .about-us-para {
         text-align: center;
+        padding:0;
+        padding-bottom: 2.5rem;
     }
 
     .text-box {
