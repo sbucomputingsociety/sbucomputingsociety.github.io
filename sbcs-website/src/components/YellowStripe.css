@@ -1,5 +1,30 @@
-.float-effect {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --lighterBlue: #C3E2FF;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+    --hoverBlue: #204be8;
+}
+
+/* float-effect p-9 bg-main-yellow border-7 border-black border-l-main-yellow */
+.yellow-stripe {
+    padding: 2.25rem;
+    background-color: var(--secondaryColor);
+    border: solid black 7px;
+}
+
+
+/* .float-effect {
     position: relative;
     top: -45px;
     left: -200px;
-}
+} */
+

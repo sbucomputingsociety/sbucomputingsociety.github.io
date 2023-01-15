@@ -38,7 +38,8 @@ function App() {
       {/* Introduction Section */}
       <Intro></Intro>
       <div className="divider-wht"></div>
-      {/* <YellowStripe></YellowStripe> */}
+      <YellowStripe></YellowStripe>
+      <div className="divider-wht"></div>
       <AboutUs></AboutUs>
 
 
