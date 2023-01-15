@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  padding: 1rem;
-  background-color:rgb(98, 68, 30);
+  margin: 1rem;
+  /* background-color:rgb(92, 64, 19); */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -14,4 +14,19 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.divider-brn{
+  background-color: rgb(92, 64, 19);
+  padding-top: 0.75rem;
+  border-left: solid black 7px;
+  border-right: solid black 7px;
+}
+
+.divider-wht{
+  background-color: rgb(255, 255, 255);
+  padding-top: 0.75rem;
+  border-left: solid black 7px;
+  border-right: solid black 7px;
+}
+
 

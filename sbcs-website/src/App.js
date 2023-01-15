@@ -33,11 +33,13 @@ function App() {
     <div className="App tracking-wide font-glory text-neutral-700 bg-white">
 
       <NavBar></NavBar>
+      <div className="divider-brn"></div>
 
       {/* Introduction Section */}
       <Intro></Intro>
+      <div className="divider-wht"></div>
       {/* <YellowStripe></YellowStripe> */}
-      {/* <AboutUs></AboutUs> */}
+      <AboutUs></AboutUs>
 
 
       {/* Upcoming */}
