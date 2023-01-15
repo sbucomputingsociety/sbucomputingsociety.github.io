@@ -36,8 +36,8 @@ function App() {
 
       {/* Introduction Section */}
       <Intro></Intro>
-      {/* <YellowStripe></YellowStripe>
-      <AboutUs></AboutUs> */}
+      {/* <YellowStripe></YellowStripe> */}
+      {/* <AboutUs></AboutUs> */}
 
 
       {/* Upcoming */}

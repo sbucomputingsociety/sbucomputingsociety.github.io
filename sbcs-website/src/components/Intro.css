@@ -17,6 +17,7 @@
     width: 130%;
     min-width: 133.74px;
     min-height: 133.74px;
+    max-width: 450px;
     height: auto;
 }
 
@@ -33,10 +34,23 @@
     border: solid black 7px;
 }
 
+/* flex flex-col justify-start p-10 */
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2.5rem;
+}
+
+
 /* Use Media Query to add a breakpoint at 800px: */
 @media only screen and (max-width:860px) {
     .computer-logo {
         display:none;
+    }
+
+    .intro-text{
+        padding-left: 0rem;
     }
     
 }

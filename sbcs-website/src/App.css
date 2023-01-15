@@ -1,4 +1,17 @@
 .App {
   text-align: center;
+  padding: 1rem;
+  background-color:rgb(98, 68, 30);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.App{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
