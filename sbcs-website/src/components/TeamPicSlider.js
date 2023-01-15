@@ -9,9 +9,7 @@ let index =1;
 function TeamPicSlider() {
 
     return (
-        <div>
-            <img src={teamPics[index]} alt="team" className="scale-70 rounded-3xl border-7 border-white"></img>
-        </div>
+        <img src={teamPics[index]} alt="team" className="team-pic-edit"></img>
     )
     
 }

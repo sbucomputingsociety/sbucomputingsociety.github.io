@@ -24,6 +24,9 @@
 }
 
 .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     padding-left: 1.5 rem;
     max-width: 50%;
 }
@@ -42,21 +45,24 @@
 /* pl-15 pb-10 text-right text-2xl */
 .about-us-para {
     padding: 2.5 rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
     text-align: right;
     font-size: 1.2rem;
     color: black;
 }
 
 /* btn-float py-4 px-32 text-2xl mr-auto font-bold text-white border-5 bg-main-blue border-black inline-block leading-tight shadow-md hover:bg-hover-blue hover:shadow-lg focus:bg-hover-blue focus:shadow-lg focus:outline-none focus:ring-0 active:bg-hover-blue active:shadow-lg transition duration-150 ease-in-out */
-
 .about-us-btn {
     padding: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     font-size:1.2rem;
+    max-width: 40%;
     font: bold;
     color: white;
     border: solid black 5px;
     background-color:var(--mainColor);
-
 }
 
 .about-us-btn:hover{
@@ -64,25 +70,40 @@
     background-color: var(--hoverBlue);
 }
 
+.about-us-btn-box{
+    text-align: right;
+}
 
-.team-photo-box {
-    
+.team-pic {
+    width: 30%;
+    height: auto;
+}
+
+@media only screen and  (max-width: 1024px){
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us-title {
+        text-align: center;
+    }
+
+    .about-us-para {
+        text-align: center;
+    }
+
+    .text-box {
+        max-width: 90%;
+    }
+
+    .about-us-btn-box{
+        text-align: center;
+    }
 }
 
 
-/* border-white border-7 rounded-3xl */
-.decoration {
-    border: solid white 7px;
-    border-radius: 10px;
-    min-width: 40%;
-}
-
-
-
-
-
-
-.btn-float{
+/* .btn-float{
     position: relative;
     top: 25px;
     right: -150px;
@@ -100,4 +121,4 @@
     height:68%;
     left: 180px;
     top: 150px;
-}
+} */

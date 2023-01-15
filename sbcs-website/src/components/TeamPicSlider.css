@@ -1,0 +1,16 @@
+/* rounded-3xl border-7 border-white */
+
+.team-pic-edit {
+    border: solid 7px white;
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and  (max-width: 1024px){
+    .team-pic-edit{
+        width: 70%;
+        min-width: 400px;
+        height: auto;
+    }
+}
