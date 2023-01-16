@@ -1,5 +1,6 @@
 import './App.css';
 
+
 // All relevant components
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
@@ -8,6 +9,7 @@ import Sponsors from './components/Sponsors';
 import YellowStripe from './components/YellowStripe';
 import AboutUs from './components/AboutUs';
 import StayConnected from './components/StayConnected';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -52,6 +54,10 @@ function App() {
 
       {/* Stay Connected */}
       <StayConnected></StayConnected>
+
+      {/* Footer */}
+      <Footer></Footer>
+
 
       {/* Sponsors */}
       {/* <Sponsors></Sponsors> */}
