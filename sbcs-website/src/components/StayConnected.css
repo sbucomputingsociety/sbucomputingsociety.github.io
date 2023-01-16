@@ -47,7 +47,10 @@
 }
 
 .post-pic:hover{
-    box-shadow: 13px 13px 5px rgb(231, 227, 212);
+    box-shadow: 13px 13px 5px rgb(187, 184, 172);
+    transform: translateY(-5px);
+    transform: translateX(-5px);
+    transition: 0.3s;
 }
 
 
