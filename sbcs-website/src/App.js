@@ -51,7 +51,7 @@ function App() {
       </div>
 
       {/* Stay Connected */}
-      {/* <StayConnected></StayConnected> */}
+      <StayConnected></StayConnected>
 
       {/* Sponsors */}
       {/* <Sponsors></Sponsors> */}

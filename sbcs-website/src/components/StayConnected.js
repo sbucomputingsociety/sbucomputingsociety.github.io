@@ -15,16 +15,18 @@ function StayConnected(){
 
         <div>
             <h1 className="sec-title">Stay Connected</h1>
-            <h4 className ="sec-text">Follow us on Instagram and join our discord server to get updated on our events, programs, and resources</h4>
-            <div className="post-box">
-            {posts.map(i => (
-                <div className="each-post">
-                    <a href={i.link}>
-                        <img src={i.image} alt='posts'/>
-                    </a>
+            <h4 className ="text-xl text-black">Follow us on Instagram and join our discord server to get updated on our events, programs, and resources</h4>
+            <div className="post-box-bg">
+                <div className="post-box">
+                    {posts.map(i => (
+                        <div className="each-post">
+                            <a href={i.link}>
+                                <img className="post-pic" src={i.image} alt='posts'/>
+                            </a>
+                        </div>
+                    ))} 
                 </div>
-            ))} 
-          </div>
+            </div> 
         </div>
 
     );
