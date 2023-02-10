@@ -4,54 +4,64 @@ import './Profile.js';
 const members = [
 
     {
-        image: '',
-        name: '',
+        image: 'pictures/teamProfiles/mirfarid.jpg',
+        name: 'Mir Farid',
         role: 'President',
 
     },
     {
-        image: '',
-        name: '',
+        image: 'pictures/teamProfiles/avishparmar.jpg',
+        name: 'Avish Parmar',
         role: 'Vice President',
     },
     {
-        image: '',
-        name: '',
+        image: 'pictures/teamProfiles/bryanlai.jpg',
+        name: 'Bryan Lai',
         role: 'Secretary',
     },
     {
-        image: '',
-        name: '',
+        image: 'pictures/teamProfiles/amirhamza.jpeg',
+        name: 'Amir Hamza',
         role: 'Community Chair',
     },
     {
-        image: '',
-        name: '',
-        role: '',
+        image: 'pictures/teamProfiles/armansyed.jpg',
+        name: 'Arman Syed',
+        role: 'Event Coordinator',
     },
     {
-        image: '',
-        name: '',
+        image: 'pictures/teamProfiles/SeanErfan.jpg',
+        name: 'Sean Erfan',
+        role: 'Branding Manager',
+    },
+    {
+        image: 'pictures/teamProfiles/AngelXie.png',
+        name: 'Angel Xie',
         role: 'WebMaster',
     },
     {
-        image: '',
-        name: '',
-        role: 'Senior Representative',
-    },
-    {
-        image: '',
-        name: '',
+        image: 'pictures/teamProfiles/KyoshiNoda.jpg',
+        name: 'Kyoshi Noda',
         role: 'Junior Representative',
     },
     {
         image: '',
-        name: '',
+        name: 'Sharon Guan',
         role: 'Sophomore Representative',
     },
     {
-        image: '',
-        name: '',
+        image: 'pictures/teamProfiles/RiteshChavan.jpg',
+        name: 'Ritesh Chavan',
+        role: 'Sophomore Representative',
+    },
+    {
+        image: 'pictures/teamProfiles/KimberlyRamirez.jpg',
+        name: 'Kimberly Ramirez',
+        role: 'Freshman Representative',
+    },
+    {
+        image: 'pictures/teamProfiles/GraceWang.jpg',
+        name: 'Grace Wang',
         role: 'Freshman Representative',
     },
 
