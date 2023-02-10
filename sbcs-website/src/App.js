@@ -11,6 +11,9 @@ import AboutUs from './components/AboutUs';
 import StayConnected from './components/StayConnected';
 import Footer from './components/Footer';
 
+import Team from './components/Team';
+
+
 function App() {
 
   // Past events
@@ -61,6 +64,10 @@ function App() {
 
       {/* Sponsors */}
       {/* <Sponsors></Sponsors> */}
+
+
+      {/* other pages */}
+      <Team></Team>
 
 
     </div>

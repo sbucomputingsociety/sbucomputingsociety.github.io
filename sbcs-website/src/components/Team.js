@@ -1,8 +1,9 @@
 import './Team.css';
-import './Profile.js';
+import Profile from './Profile';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 const members = [
-
     {
         image: 'pictures/teamProfiles/mirfarid.jpg',
         name: 'Mir Farid',
@@ -64,7 +65,11 @@ const members = [
         name: 'Grace Wang',
         role: 'Freshman Representative',
     },
-
+    {
+        image: 'pictures/teamProfiles/AtriVyas.jpg',
+        name: 'Atri Vyas',
+        role: 'Freshman Representative',
+    },
 ]
 
 
@@ -72,25 +77,24 @@ function Team(){
     return (
         <div className="team-page">
             {/* need the header */}
+            <NavBar></NavBar>
+
             <div className="team-page-title">Our Team</div>
             
             {/* need to generate the cards */}
             <div className="profile-card">
-                {props.members.map(i => (
+                {members.map(i => (
                     <Profile
                         image={i.image}
-                        title={i.name}
-                        date={i.role}
+                        name={i.name}
+                        role={i.role}
                     />
                 ))} 
             </div>   
 
             {/* need the footer */}
-
-
+            <Footer></Footer>
         </div>
-
-
     )
 }
 
