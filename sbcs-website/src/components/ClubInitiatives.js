@@ -1,4 +1,5 @@
 import './ClubInitiatives.css';
+import InitCards from './InitCards';
 
 const inits = [
     {
@@ -24,7 +25,7 @@ function ClubInitiatives(){
         <div>
             <div className="init-container">
                 {inits.map(i => (
-                    <initCards 
+                    <InitCards 
                         image={i.image}
                         title={i.title}
                         description={i.description}
