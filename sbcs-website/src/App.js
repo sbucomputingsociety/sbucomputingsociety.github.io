@@ -6,13 +6,13 @@ import NavBar from './components/NavBar';
 import Intro from './components/Intro';
 import ClubInitiatives from './components/ClubInitiatives';
 import Events from './components/Events';
-import Sponsors from './components/Sponsors';
 import YellowStripe from './components/YellowStripe';
 import AboutUs from './components/AboutUs';
 import StayConnected from './components/StayConnected';
 import Footer from './components/Footer';
 
 import Team from './components/Team';
+import Sponsors from './components/Sponsors'
 
 
 function App() {
@@ -72,6 +72,9 @@ function App() {
 
       {/* other pages */}
       <Team></Team>
+
+      {/* other pages */}
+      <Sponsors></Sponsors>
 
 
     </div>
