@@ -4,6 +4,7 @@ import './App.css';
 // All relevant components
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
+import ClubInitiatives from './components/ClubInitiatives';
 import Events from './components/Events';
 import Sponsors from './components/Sponsors';
 import YellowStripe from './components/YellowStripe';
@@ -47,10 +48,13 @@ function App() {
       <div className="divider-wht"></div>
       <AboutUs></AboutUs>
 
+      {/* Club Initiatives */}
+      <ClubInitiatives></ClubInitiatives>
+
 
       {/* Upcoming */}
-      <div className="divider-ylw"></div>
-      <div className="divider-ylw"></div>
+      {/* <div className="divider-ylw"></div> */}
+      {/* <div className="divider-ylw"></div> */}
       <div>
         <Events item={events} />
       </div>

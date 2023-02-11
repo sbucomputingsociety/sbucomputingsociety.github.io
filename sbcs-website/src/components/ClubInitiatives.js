@@ -20,7 +20,6 @@ const inits = [
 ]
 
 function ClubInitiatives(){
-
     return(
         <div>
             <div className="init-container">
