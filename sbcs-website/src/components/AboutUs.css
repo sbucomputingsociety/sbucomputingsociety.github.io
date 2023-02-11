@@ -54,20 +54,23 @@
 
 /* btn-float py-4 px-32 text-2xl mr-auto font-bold text-white border-5 bg-main-blue border-black inline-block leading-tight shadow-md hover:bg-hover-blue hover:shadow-lg focus:bg-hover-blue focus:shadow-lg focus:outline-none focus:ring-0 active:bg-hover-blue active:shadow-lg transition duration-150 ease-in-out */
 .about-us-btn {
-    padding: 0.75rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-size:1.2rem;
-    max-width: 40%;
-    font: bold;
-    color: white;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    background-color: rgb(57, 143, 249);
     border: solid black 5px;
-    background-color:var(--mainColor);
+    border-radius: 5rem;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
 }
 
 .about-us-btn:hover{
-    transition: 1.5s;
-    background-color: var(--hoverBlue);
+    background-color: rgb(105, 165, 239);
+    transform: scale(1.025);
 }
 
 .about-us-btn-box{
