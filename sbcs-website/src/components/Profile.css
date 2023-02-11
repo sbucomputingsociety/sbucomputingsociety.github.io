@@ -41,6 +41,12 @@
 .profile-pic{
     border-radius: 25%;
     border: solid black 2px;
+    transition: 300ms transform ease-in-out;
+}
+
+.profile-pic:hover{
+    transform: scale(1.025);
+    cursor: pointer;
 }
 
 .profile-info{
