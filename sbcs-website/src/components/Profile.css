@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+}
+
+.each-member{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    max-width: 18rem;
+    max-height: 18rem;
+
+    min-width: 270px;
+    min-height: 270px;
+}
+
+.profile-bg{
+    border-radius: 25%;
+    padding: 10px;
+    background: #808391;
+    border: solid black 2px;
+}
+
+.profile-pic{
+    border-radius: 25%;
+    border: solid black 2px;
+}
+
+.profile-info{
+    padding: 1px;
+}
+
+.name{
+    font-size: 1.9rem;
+    color: #2d3249;
+    font-weight: bold;
+    padding:0;
+    margin:0;
+}
+
+.role{
+    font-size: 1.4rem;
+}

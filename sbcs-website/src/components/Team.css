@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+}
+
+.team-page-title{
+    font-size:  3.7rem;
+    padding-top: 5rem;
+    color: black;
+}
+
+.solid{
+    margin-left: 43%;
+    margin-right: 43%;
+    padding-bottom: 2rem;
+    border-top:5px solid black;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;    
+}
+
+.bottom-divider{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 7rem;
+    border-top:5px solid black;
+}
+
+
+
+@media only screen and (max-width:860px) {
+    .profile-card{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}

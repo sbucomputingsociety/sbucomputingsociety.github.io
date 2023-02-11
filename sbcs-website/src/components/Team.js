@@ -80,7 +80,7 @@ function Team(){
             <NavBar></NavBar>
 
             <div className="team-page-title">Our Team</div>
-            
+            <hr className="solid"></hr>
             {/* need to generate the cards */}
             <div className="profile-card">
                 {members.map(i => (
@@ -91,6 +91,7 @@ function Team(){
                     />
                 ))} 
             </div>   
+            <hr class="bottom-divider"></hr>
 
             {/* need the footer */}
             <Footer></Footer>
