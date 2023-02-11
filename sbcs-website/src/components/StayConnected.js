@@ -5,7 +5,7 @@ const posts = [
     {image:'posters/careers_in_Tech_11_9_2022.png',link:'https://www.instagram.com/p/Ckgm158O7Db/?utm_source=ig_web_copy_link'},
     {image:'posters/Technical_Interview_Prep_11_2_2022.png',link:'https://www.instagram.com/p/CkTNxqdOwaO/?utm_source=ig_web_copy_link'},
     {image:'posters/Intro_to_web_dev_9_28_2022.png',link:'https://www.instagram.com/p/Ci77nVfu7am/?utm_source=ig_web_copy_link'},
-    {image:'posters/succulent.png',link:'https://www.instagram.com/p/CdzAqdQF6fM/?utm_source=ig_web_copy_link'},
+    {image:'posters/Smores2_1_23.png',link:'https://www.instagram.com/p/CoFQL_sutxO/?utm_source=ig_web_copy_link'},
     {image:'posters/SBCS_Mentorship_Program_Flyer.png',link:'https://www.instagram.com/p/CisE83Su_Xw/?utm_source=ig_web_copy_link'},
 
 ]
