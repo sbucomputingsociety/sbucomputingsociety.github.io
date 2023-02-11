@@ -9,19 +9,19 @@ const inits = [
     },
     {
         image: 'posters/SBCS_Mentorship_Program_Flyer.png',
-        title: 'Initiatives',
-        description: 'Striving to share valuable resources for Stony Brook students, we offer mentorships that connect members with experienced alumini.'
+        title: 'Special Programs',
+        description: 'Striving to share resources, we offer mentorships that connect members with experienced alumini.'
     },
     {
         image: 'pictures/gallary/Roth3.jpg',
-        title: 'Social & Career Events',
-        description: 'At SBCS, we collaborate with other clubs and faculty members to create guest speakers, coding competitions, fun socials, and more!'
+        title: 'Club Events',
+        description: 'SBCS work with clubs and faculty members to host guest speakers, competitions, socials, and more!'
     },
 ]
 
 function ClubInitiatives(){
     return(
-        <div>
+        <div className="init-outer">
             <div className="init-container">
                 {inits.map(i => (
                     <InitCards 

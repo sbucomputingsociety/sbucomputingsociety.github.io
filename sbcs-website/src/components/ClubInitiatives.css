@@ -12,6 +12,12 @@
     --textColor: rgb(255, 255, 255);
 }
 
+.init-outer{
+    margin: 0;
+    padding: 0;
+    border: solid black 7px;
+}
+
 .init-container{
     display: flex;
     flex-direction: row;
@@ -19,5 +25,6 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: var(--secondaryColor);
+    /* background-color: var(--secondaryColor); */
+    flex-wrap: wrap;
 }

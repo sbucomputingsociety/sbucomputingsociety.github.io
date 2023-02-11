@@ -49,12 +49,14 @@ function App() {
       <AboutUs></AboutUs>
 
       {/* Club Initiatives */}
+      <div className="divider-ylw"></div>
+      <div className="divider-ylw"></div>
       <ClubInitiatives></ClubInitiatives>
 
 
       {/* Upcoming */}
-      {/* <div className="divider-ylw"></div> */}
-      {/* <div className="divider-ylw"></div> */}
+      <div className="divider-ylw"></div>
+      <div className="divider-ylw"></div>
       <div>
         <Events item={events} />
       </div>
@@ -64,10 +66,6 @@ function App() {
 
       {/* Footer */}
       <Footer></Footer>
-
-
-      {/* Sponsors */}
-      {/* <Sponsors></Sponsors> */}
 
 
       {/* other pages */}

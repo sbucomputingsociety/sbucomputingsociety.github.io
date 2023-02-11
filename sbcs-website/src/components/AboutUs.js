@@ -1,7 +1,6 @@
 import './AboutUs.css';
 import TeamPicSlider from './TeamPicSlider';
 
-
 function AboutUs() {
     return(
         <div className="about-us-container">
@@ -12,7 +11,6 @@ function AboutUs() {
                 <div className="about-us-btn-box">
                     <a className="about-us-btn" href="/#">Our Initiatives</a>
                 </div>
-                
             </div>
         </div>
     );
