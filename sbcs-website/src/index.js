@@ -1,25 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+//Import Pages to be used for Routing.j
 import App from './App';
+import Team from './components/Team';
+import EventPage from './components/EventPage';
+import Gallery from './components/Gallery'
+import Sponsors from './components/Sponsors'
+import Contact from './components/Contact'
+//Router and other imports
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-]);
+export default function Main() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}></Route>
+        <Route path="/team" element={<Team />}></Route>
+        <Route path="/eventpage" element={<EventPage/>}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/sponsors" element={<Sponsors />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Main />
   </React.StrictMode>
 );
 

@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import './NavBar.css';
 
 function NavBar() {
@@ -14,13 +15,12 @@ function NavBar() {
         <header>
             <img className="logo" src='logos/sbcs-web-logo-b-removebg-preview.png' alt='logo'></img>
             <nav ref={navRef}>
-                <a href="/#">Home</a>
-                <a href="/#">Team</a>
-                <a href="/#">Events</a>
-                <a href="/#">Gallary</a>
-                <a href="/#">Sponsors</a>
-                <a href="/#">Contact</a>
-
+                <Link to="/#">Home</Link>
+                <Link to="/team">Team</Link>
+                <Link to="/eventpage">Events</Link>
+                <Link to="/gallery">Gallery</Link>
+                <Link to="/sponsors">Sponsors</Link>
+                <Link to="/contact">Contact</Link>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes/>
                 </button>
