@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --lighterBlue: #C3E2FF;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+    --hoverBlue: #204be8;
+}
+
+.upcoming-event-box-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-event-title-p{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.upcoming-event-log-p-blue{
+    color: #14539b;
+}
+
+.upcoming-event-log-p-black{
+    color: #000000;
+}

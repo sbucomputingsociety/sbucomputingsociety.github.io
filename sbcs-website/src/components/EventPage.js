@@ -2,6 +2,7 @@ import './EventPage.css';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import PastEventCard from './PastEventCard';
+import UpcomingEventCard from './UpcomingEventCard';
 
 const pastEvents = [
     {
@@ -41,7 +42,7 @@ const pastEvents = [
     },
 ]
 
-function EventPage() {
+function EventPage(props) {
     return (
         <div>
             <NavBar></NavBar>
@@ -49,6 +50,19 @@ function EventPage() {
             {/* upcoming events */}
             <h2 className="event-page-title">Upcoming Events</h2>
             <hr className="solid"></hr>
+            <div className="p-upcoming-events">
+                {props.item.map(i => (
+                    <UpcomingEventCard
+                        image={i.image}
+                        title={i.title}
+                        date={i.date}
+                        location={i.location}
+                        description={i.description}
+                    />
+                ))} 
+            </div>
+            
+                
 
             {/* past events */}
             <h2 className="event-page-title">Past Events</h2>
