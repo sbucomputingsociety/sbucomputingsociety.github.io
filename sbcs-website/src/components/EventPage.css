@@ -13,3 +13,19 @@
     --textColor: rgb(255, 255, 255);
     --hoverBlue: #204be8;
 }
+
+.event-page-title{
+    color: black;
+    padding: 4rem;
+    font-size: 3.5rem;
+}
+
+.past-events{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
