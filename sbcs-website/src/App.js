@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Team from './components/Team';
 import Sponsors from './components/Sponsors'
 import EventPage from './components/EventPage';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -84,6 +85,9 @@ function App() {
 
       {/* other pages */}
       <EventPage item={events}></EventPage>
+
+      {/* other pages */}
+      <Contact></Contact>
 
     </div>
   );

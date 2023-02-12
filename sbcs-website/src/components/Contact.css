@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+:root{
+    --mainColor: #3461FF;
+    --mainColorLighter: #4f71ef;
+    --lighterBlue: #C3E2FF;
+    --secondaryColor: #FACA4E;
+    --textColor: rgb(255, 255, 255);
+    --hoverBlue: #204be8;
+}
+
+.contact-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.contact-box{
+    width: 55%;
+    max-width: 550px;
+    max-height: 734px;
+    min-width: 382px;
+    margin-top: 4rem;
+    border-radius: 15px;
+    border: solid black 7px;
+    background-color: #808391;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SBCS-logo-c{
+    padding-top:3rem;
+    width: 57%;
+    min-width:auto;
+}
+
+.contact-title{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.contact-stuff{
+    color: black;
+    margin-top: 1.2rem;
+    border: solid black 4px;
+    border-radius: 10px;
+    width: 90%;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.35rem;
+    transition: 300ms transform ease-in-out;
+}
+
+.contact-stuff:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.light-blue-c{
+    background-color: #C3E2FF;
+}
+
+.light-blue-c:hover{
+    background-color: #83c2fe;
+}
+
+.blue-c{
+    background-color: #4799E5;
+    margin-bottom: 4rem;
+}
+
+.blue-c:hover{
+    background-color: #2271ba;
+}
+
+.dark-blue-c{
+    background-color: #1978E7;
+}
+
+.dark-blue-c:hover{
+    background-color: #0c5cb7;
+}
+
+.yellow-c{
+    background-color: #F0C75B;
+}
+
+.yellow-c:hover{
+    background-color: #ba9025;
+}
+
+
+
