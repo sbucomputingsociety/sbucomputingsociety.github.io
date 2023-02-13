@@ -75,7 +75,7 @@ const members = [
 
 function Team(){
     return (
-        <div className="team-page">
+        <div className="App team-page">
             {/* need the header */}
             <NavBar></NavBar>
 

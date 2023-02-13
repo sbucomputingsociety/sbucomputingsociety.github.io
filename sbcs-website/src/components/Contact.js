@@ -4,8 +4,7 @@ import Footer from './Footer';
 
 function Contact(){
     return(
-
-        <div>
+        <div className="App">
             <NavBar></NavBar>
             <div className="contact-outer">
                 <div className="contact-box">

@@ -76,19 +76,8 @@ function App() {
       {/* Footer */}
       <Footer></Footer>
 
-
-      {/* other pages */}
-      <Team></Team>
-
-      {/* other pages */}
-      <Sponsors></Sponsors>
-
-      {/* other pages */}
-      <EventPage item={events}></EventPage>
-
-      {/* other pages */}
-      <Contact></Contact>
-
+      /*Different pages can be accessed by adding a link tag in NavBar.js, and adding a corresponding
+      route in index.js */
     </div>
   );
 }

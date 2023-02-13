@@ -15,7 +15,7 @@ const sponsList = [
 
 function Sponsors() {
     return (
-        <div>
+        <div className="App">
             <NavBar></NavBar>
             <div className="sponsor-container">
                 <h1 className="sponsor-title">Sponsors</h1>

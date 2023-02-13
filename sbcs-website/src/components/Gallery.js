@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 function EventPage(props) {
     return (
-        <div>
+        <div className="App">
             <NavBar></NavBar>
 
             {/* upcoming events */}

@@ -117,7 +117,7 @@ const pastEvents = [
 
 function EventPage(props) {
     return (
-        <div>
+        <div className="App">
             <NavBar></NavBar>
 
             {/* upcoming events */}
