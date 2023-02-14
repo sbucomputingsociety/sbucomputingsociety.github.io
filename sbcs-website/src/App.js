@@ -36,12 +36,12 @@ function App() {
       description: 'Learn how ChatGPT works and how YOU can use it to code',
     },
     {
-        title: 'Messing w/ API\'s',
-        image: 'posters/API2_15_23.png',
-        date: 'WEDS, Feb 15th, 2023 6:00PM - 7:00PM',
-        location: 'NEW COMPUTER SCIECE 120',
-        description: 'Join us for a hands-on workshop to explore the world of APIs and discover how to integrate them into your next project',
-      },
+      title: 'Messing w/ API\'s',
+      image: 'posters/API2_15_23.png',
+      date: 'WEDS, Feb 15th, 2023 6:00PM - 7:00PM',
+      location: 'NEW COMPUTER SCIECE 120',
+      description: 'Join us for a hands-on workshop to explore the world of APIs and discover how to integrate them into your next project',
+    },
   ]
 
   return (
