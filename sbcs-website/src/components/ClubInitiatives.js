@@ -1,6 +1,10 @@
 import './ClubInitiatives.css';
 import InitCards from './InitCards';
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react";
+
 const inits = [
     {
         link: '#',
@@ -23,9 +27,14 @@ const inits = [
 ]
 
 function ClubInitiatives(){
+
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, []);
+
     return(
         <div className="init-outer">
-            <div className="init-container">
+            <div className="init-container" data-aos="fade-up">
                 {inits.map(i => (
                     <InitCards 
                         image={i.image}

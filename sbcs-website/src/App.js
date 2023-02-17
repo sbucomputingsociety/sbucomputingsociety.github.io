@@ -11,16 +11,9 @@ import AboutUs from './components/AboutUs';
 import StayConnected from './components/StayConnected';
 import Footer from './components/Footer';
 
-import Team from './components/Team';
-import Sponsors from './components/Sponsors'
-import EventPage from './components/EventPage';
-import Contact from './components/Contact';
-
 
 
 function App() {
-
-  
 
   // Upcoming events
   const events = [
@@ -58,9 +51,7 @@ function App() {
       <div className="divider-wht"></div>
       <YellowStripe></YellowStripe>
       <div className="divider-wht"></div>
-      <div data-aos="fade-right">
       <AboutUs></AboutUs>
-      </div>
 
       {/* Club Initiatives */}
       <div className="divider-ylw"></div>

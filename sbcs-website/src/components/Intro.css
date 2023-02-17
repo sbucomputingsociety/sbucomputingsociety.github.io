@@ -23,14 +23,18 @@
 
 /* flex items-center py-12 px-20 bg-main-blue mt-3 border-7 border-black border-r-main-blue */
 .outer {
-    display: flex;
-    align-items: center;
+    
     padding-right: 5rem;
     padding-left: 5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: var(--mainColor);
     border: solid black 7px;
+}
+
+.moving-container{
+    display: flex;
+    align-items: center;
 }
 
 /* flex flex-col justify-start p-10 */

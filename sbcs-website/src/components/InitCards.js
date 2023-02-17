@@ -1,6 +1,8 @@
 import './InitCards.css';
 
+
 function InitCards(props){
+    
     return(
         <div className="init-card-item">
             <a href={props.link}>

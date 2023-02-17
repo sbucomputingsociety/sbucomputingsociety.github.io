@@ -4,6 +4,11 @@ import Footer from './Footer';
 import PastEventCard from './PastEventCard';
 import UpcomingEventCard from './UpcomingEventCard';
 
+
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react";
+
 const upcomingEvents =[
     {
       title: 'S\'Mores Networking',
@@ -116,6 +121,11 @@ const pastEvents = [
 ]
 
 function EventPage(props) {
+
+    useEffect(() => {
+        Aos.init({duration: 800});
+    }, []);
+
     return (
         <div className="App">
             <NavBar></NavBar>
@@ -123,7 +133,7 @@ function EventPage(props) {
             {/* upcoming events */}
             <h2 className="event-page-title">Upcoming Events</h2>
             <hr className="solid"></hr>
-            <div className="p-upcoming-events">
+            <div className="p-upcoming-events" data-aos="fade-up">
                 {upcomingEvents.map(i => (
                     <UpcomingEventCard
                         image={i.image}
@@ -140,7 +150,7 @@ function EventPage(props) {
             {/* past events */}
             <h2 className="event-page-title">Past Events</h2>
             <hr className="solid"></hr>
-            <div className="past-events">
+            <div className="past-events" data-aos="fade-up">
                 {pastEvents.map(i => (
                     <PastEventCard
                         image={i.image}

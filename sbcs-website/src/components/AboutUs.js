@@ -2,6 +2,7 @@ import './AboutUs.css';
 import TeamPicSlider from './TeamPicSlider';
 
 function AboutUs() {
+
     return(
         <div className="about-us-container">
             <TeamPicSlider className="team-pic"></TeamPicSlider>
