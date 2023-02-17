@@ -15,9 +15,16 @@ import Team from './components/Team';
 import Sponsors from './components/Sponsors'
 import EventPage from './components/EventPage';
 import Contact from './components/Contact';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react";
 
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, []);
 
   // Upcoming events
   const events = [
@@ -51,11 +58,15 @@ function App() {
       <div className="divider-brn"></div>
 
       {/* Introduction Section */}
+      <div data-aos="fade-up">
       <Intro></Intro>
+      </div>
       <div className="divider-wht"></div>
       <YellowStripe></YellowStripe>
       <div className="divider-wht"></div>
+      <div data-aos="fade-right">
       <AboutUs></AboutUs>
+      </div>
 
       {/* Club Initiatives */}
       <div className="divider-ylw"></div>
