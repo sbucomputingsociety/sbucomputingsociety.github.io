@@ -1,5 +1,9 @@
 import './StayConnected.css';
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react";
+
 const posts = [
     {image:'posters/gitworkshop.png',link:'https://www.instagram.com/p/ClhadQ9uDbI/?utm_source=ig_web_copy_link'},
     {image:'posters/careers_in_Tech_11_9_2022.png',link:'https://www.instagram.com/p/Ckgm158O7Db/?utm_source=ig_web_copy_link'},
@@ -11,15 +15,17 @@ const posts = [
 ]
 
 function StayConnected(){
+    useEffect(() => {
+        Aos.init({duration: 750});
+    }, []);
     return(
-
-        <div>
+        <div className="stay-connected-box">
             <h1 className="sec-title">Stay Connected</h1>
             <h4 className ="text-xl text-black">Follow us on Instagram and join our discord server to get updated on our events, programs, and resources</h4>
             <div className="post-box-bg">
                 <div className="post-box">
                     {posts.map(i => (
-                        <div className="each-post">
+                        <div className="each-post" data-aos="fade-up">
                             <a href={i.link}>
                                 <img className="post-pic" src={i.image} alt='posts'/>
                             </a>

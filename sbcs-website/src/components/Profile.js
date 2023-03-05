@@ -1,8 +1,17 @@
 import './Profile.css';
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react";
+
 function Profile(props){
+
+    useEffect(() => {
+        Aos.init({duration: 750});
+    }, []);
+
     return (
-        <div className="each-member">
+        <div className="each-member" data-aos="fade-up">
             <div className="profile-bg">
                 <img className="profile-pic" src={props.image} alt="profile pic"></img>
             </div>

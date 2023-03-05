@@ -29,7 +29,7 @@ const inits = [
 function ClubInitiatives(){
 
     useEffect(() => {
-        Aos.init({duration: 1000});
+        Aos.init({duration: 780});
     }, []);
 
     return(

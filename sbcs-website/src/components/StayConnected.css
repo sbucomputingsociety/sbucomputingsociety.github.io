@@ -12,6 +12,10 @@
     --textColor: rgb(255, 255, 255);
 }
 
+.stay-connected-box{
+    border-top: black solid 7px;
+}
+
 .sec-title{
     font-size: 3.7rem;
     padding-top: 5rem;
@@ -22,9 +26,12 @@
 }
 
 .post-box-bg{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin: 4rem;
+    /* border: black solid 10px; */
     background-color: var(--secondaryColor);
 }
 
@@ -40,8 +47,8 @@
 
 .post-pic{
     object-fit: cover;
-    width: 22vw;
-    height: 22vw;
+    width: 21vw;
+    height: 21vw;
     
     border-radius: 10px;
     border: solid black 6px;

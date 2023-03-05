@@ -67,13 +67,14 @@ function App() {
       </div>
 
       {/* Stay Connected */}
+      
+      <div className="divider-wht blue-stripe"></div>
+      <div className="divider-wht blue-stripe"></div>
       <StayConnected></StayConnected>
 
       {/* Footer */}
       <Footer></Footer>
-
-      /*Different pages can be accessed by adding a link tag in NavBar.js, and adding a corresponding
-      route in index.js */
+      
     </div>
   );
 }
