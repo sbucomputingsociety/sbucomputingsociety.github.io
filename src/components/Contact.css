@@ -26,7 +26,7 @@
     width: 55%;
     max-width: 550px;
     max-height: 734px;
-    min-width: 382px;
+    min-width: 360px;
     margin-top: 4rem;
     border-radius: 15px;
     border: solid black 7px;
@@ -47,6 +47,10 @@
 .contact-title{
     font-size: 2.5rem;
     color: white;
+}
+
+.hide{
+    visibility: visible;
 }
 
 .contact-stuff{
@@ -87,6 +91,18 @@
     background-color: #F0C75B;
 }
 
+@media only screen and (max-width:860px) {
+    .contact-title{
+        font-size: 1.8rem;
+    }
+    .contact-stuff{
+        padding:0.8rem;
+    }
+    .hide{
+        visibility: hidden;
+        height: 0;
+    }
+}
 
 
 

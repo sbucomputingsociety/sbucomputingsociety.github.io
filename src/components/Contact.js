@@ -8,7 +8,7 @@ function Contact(){
             <NavBar></NavBar>
             <h2 className="event-page-title">Contact</h2>
             <hr className="solid"></hr>
-            <p className="sponsor-description">
+            <p className="sponsor-description hide">
                 Join our awesome community online to find like-minded peers and access career-building/academic resources!
                 You will find most up-to-date information about our club through our discord and instagram.&lt;3
             </p>

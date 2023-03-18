@@ -62,5 +62,11 @@
         padding-left: 0rem;
         padding-right: 0rem;
     }
+    .sponsor-title{
+        font-size: 2.7rem;
+    }
+    .sponsor-description{
+        padding: 0rem;
+    }
 }
 
