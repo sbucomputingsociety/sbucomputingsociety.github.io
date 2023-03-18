@@ -109,23 +109,20 @@
     }
 }
 
-
-/* .btn-float{
-    position: relative;
-    top: 25px;
-    right: -150px;
+/* club initiative stuff */
+.init-outer{
+    margin: 0;
+    padding: 0;
+    border: solid black 7px;
 }
 
-.box-float{
-    position: relative;
-    right: -10px;
-
+.init-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: var(--secondaryColor); */
+    flex-wrap: wrap;
 }
-
-.frame-float{
-    position: absolute;
-    width: 70%;
-    height:68%;
-    left: 180px;
-    top: 150px;
-} */

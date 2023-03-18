@@ -23,6 +23,7 @@
 
 @media only screen and  (max-width: 1024px){
     .team-pic-box{
+        width: 70%;
         min-width: 319px;
         height: auto;
     }

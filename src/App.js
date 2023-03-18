@@ -4,12 +4,12 @@ import './App.css';
 // All relevant components
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
-import ClubInitiatives from './components/ClubInitiatives';
 import Events from './components/Events';
 import YellowStripe from './components/YellowStripe';
 import AboutUs from './components/AboutUs';
 import StayConnected from './components/StayConnected';
 import Footer from './components/Footer';
+
 
 
 
@@ -52,12 +52,6 @@ function App() {
       <YellowStripe></YellowStripe>
       <div className="divider-wht"></div>
       <AboutUs></AboutUs>
-
-      {/* Club Initiatives */}
-      <div className="divider-ylw"></div>
-      <div className="divider-ylw"></div>
-      <ClubInitiatives></ClubInitiatives>
-
 
       {/* Upcoming */}
       <div className="divider-ylw"></div>
