@@ -45,6 +45,9 @@
 
 
 @media only screen and (max-width:860px) {
+    .team-page-title{
+        font-size: 2.7rem;
+    }
     .profile-card{
         padding-left: 0rem;
         padding-right: 0rem;

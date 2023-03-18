@@ -68,6 +68,30 @@
     transform: scale(1.025);
 }
 
+/* text-left pb-5 text-7xl font-normal text-lighter-gray */
+.sbcs-intro{
+    text-align: left;
+    padding: 1rem;
+    font-size: 5.3rem;
+    color:#eae4e4;
+    font-weight:lighter;
+    line-height: normal;
+}
+
+.sbcs-intro-bold{
+    font-weight: bold;
+}
+
+/* text-left pb-5 pr-20 text-2xl text-base font-normal text-lighter-gray */
+.sbcs-description{
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color:#c0c3ca;
+    font-weight:normal;
+    line-height: normal;
+}
+
 
 /* Use Media Query to add a breakpoint at 800px: */
 @media only screen and (max-width:860px) {
@@ -77,6 +101,11 @@
 
     .intro-text{
         padding-left: 0rem;
+    }
+
+    .sbcs-intro{
+        padding: 0rem;
+        font-size:4rem;
     }
     
 }

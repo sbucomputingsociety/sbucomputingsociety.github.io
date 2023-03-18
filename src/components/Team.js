@@ -26,11 +26,6 @@ const members = [
         role: 'Community Chair',
     },
     {
-        image: 'pictures/teamProfiles/armansyed.jpg',
-        name: 'Arman Syed',
-        role: 'Event Coordinator',
-    },
-    {
         image: 'pictures/teamProfiles/SeanErfan.jpg',
         name: 'Sean Erfan',
         role: 'Branding Manager',
@@ -38,7 +33,7 @@ const members = [
     {
         image: 'pictures/teamProfiles/AngelXie.png',
         name: 'Angel Xie',
-        role: 'WebMaster',
+        role: 'Webmaster',
     },
     {
         image: 'pictures/teamProfiles/KyoshiNoda.jpg',
