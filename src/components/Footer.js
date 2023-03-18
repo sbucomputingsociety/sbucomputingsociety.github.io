@@ -11,7 +11,7 @@ function Footer(){
 
                 <h4>College of Engineering & Applied Sciences, 231 Engineering
 Stony Brook, NY 11794-2200</h4>
-                <h4>sbcs@gmail.com</h4>
+                <h4>sbcomputingsociety@cs.stonybrook.edu</h4>
 
                 
 
