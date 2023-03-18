@@ -105,7 +105,11 @@
 
     .sbcs-intro{
         padding: 0rem;
-        font-size:4rem;
+        font-size:3.6rem;
+    }
+
+    .outer {
+        padding-left: 3rem;
     }
     
 }

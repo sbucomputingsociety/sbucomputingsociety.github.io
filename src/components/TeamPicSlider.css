@@ -10,6 +10,7 @@
 }
 
 .team-pic-edit {
+    width: 100%;
     border: solid 1px white;
     border-radius: 10px;
     transition: 300ms transform ease-in-out;
@@ -21,9 +22,12 @@
 }
 
 @media only screen and  (max-width: 1024px){
+    .team-pic-box{
+        min-width: 319px;
+        height: auto;
+    }
     .team-pic-edit{
-        width: 70%;
-        min-width: 400px;
+        min-width: 295px;
         height: auto;
     }
 }
