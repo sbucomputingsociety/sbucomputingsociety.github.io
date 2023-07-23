@@ -19,7 +19,25 @@
     min-height: 133.74px;
     max-width: 450px;
     height: auto;
+
+    animation-name: floating-logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes floating-logo {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, -15px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
 
 /* flex items-center py-12 px-20 bg-main-blue mt-3 border-7 border-black border-r-main-blue */
 .outer {

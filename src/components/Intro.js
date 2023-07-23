@@ -1,26 +1,30 @@
 import './Intro.css';
-
-import Aos from "aos";
-import "aos/dist/aos.css";
-import {useEffect} from "react";
-
+import React from 'react';
+import Typed from 'typed.js';
 
 function Intro() {
-
-    useEffect(() => {
-        Aos.init({duration: 800});
+    React.useEffect(() => {
+      const typed = new Typed('.sbcs-intro', {
+        strings: ['<span className="sbcs-intro-bold"> Hello World! :) </span>', 'We are the <span className="sbcs-intro-bold">Stony Brook Computing Society</span> _'],
+        typeSpeed: 50,
+        cursorChar: '',
+      });
+  
+      return () => {
+        // Destroy Typed instance during cleanup to stop animation
+        typed.destroy();
+      };
     }, []);
-    
+
     return(
         <div className="outer">
-            <div className="moving-container" >
-                <div className="intro-text" data-aos="fade-right">
-                    <h1 className="sbcs-intro">We are the <span className="sbcs-intro-bold">Stony Brook Computing Society</span> _</h1>
-                    <h4 className="sbcs-description">The Stony Brook Computing Society is a student organization at Stony Brook University created for all students who are interested in programming, computers, and related technology.</h4>
-                    {/* <a className="py-3 px-7 mr-auto text-2xl font-bold border-5 bg-main-gray border-black inline-block leading-tight shadow-md hover:bg-hover-gray hover:shadow-lg focus:bg-hover-gray focus:shadow-lg focus:outline-none focus:ring-0 active:bg-hover-gray active:shadow-lg transition duration-150 ease-in-out" href="/#">Get Involved</a> */}
+            <div className="moving-container">
+                <div className="intro-text">
+                    <span className="sbcs-intro"></span>
+                    <h4 className="sbcs-description">We are a student organization at Stony Brook University created for all students who are interested in programming, computers, and related technology.</h4>
                     <a className="get-involved-btn" href="https://www.instagram.com/sbucomputingsociety/">Get Involved</a>
                 </div>
-                <img className="computer-logo" src="logos/web-logo-b-cropped.png" alt="logo" data-aos="fade-up"></img>
+                <img className="computer-logo" src="logos/web-logo-b-cropped.png" alt="logo"></img>
             </div>
             
         </div>
