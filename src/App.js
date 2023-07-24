@@ -3,11 +3,11 @@ import './App.css';
 
 // All relevant components
 import NavBar from './components/NavBar';
-import Intro from './components/Intro';
-import Events from './components/Events';
+import Intro from './pages/MainPage/Intro';
+import Events from './pages/MainPage/Events';
 import YellowStripe from './components/YellowStripe';
-import AboutUs from './components/AboutUs';
-import StayConnected from './components/StayConnected';
+import AboutUs from './pages/MainPage/AboutUs';
+import StayConnected from './pages/MainPage/StayConnected';
 import Footer from './components/Footer';
 
 

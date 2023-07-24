@@ -4,9 +4,9 @@ import './index.css';
 //Import Pages to be used for Routing.j
 import App from './App';
 import Team from './pages/TeamPage/TeamPage';
-import EventPage from './components/EventPage';
+import EventPage from './pages/EventPage/EventPage';
 import Sponsors from './pages/SponsorPage/Sponsors'
-import Contact from './components/Contact'
+import Contact from './pages/ContactPage/ContactPage'
 //Router and other imports
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';

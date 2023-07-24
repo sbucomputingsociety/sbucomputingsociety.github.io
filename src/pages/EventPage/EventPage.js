@@ -1,6 +1,6 @@
 import './EventPage.css';
-import NavBar from './NavBar';
-import Footer from './Footer';
+import NavBar from '../../components/NavBar';
+import Footer from '../../components/Footer';
 import PastEventCard from './PastEventCard';
 import UpcomingEventCard from './UpcomingEventCard';
 
