@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import Team from './pages/TeamPage/TeamPage';
 import EventPage from './pages/EventPage/EventPage';
-import Sponsors from './pages/SponsorPage/Sponsors'
+import Sponsors from './pages/SponsorPage/SponsorsPage'
 import Contact from './pages/ContactPage/ContactPage'
 //Router and other imports
 import reportWebVitals from './reportWebVitals';
