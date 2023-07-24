@@ -35,7 +35,7 @@ function Sponsors() {
                     ))}
                 </div>
 
-                <hr class="bottom-divider"></hr>
+                <hr className="bottom-divider"></hr>
             </div>
             <Footer></Footer>
         </div>

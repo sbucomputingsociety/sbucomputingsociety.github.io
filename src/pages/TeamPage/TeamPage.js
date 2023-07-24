@@ -1,5 +1,5 @@
-import './Team.css';
-import Profile from '../../components/Profile';
+import './TeamPage.css';
+import Profile from './Profile';
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 
@@ -81,7 +81,7 @@ function Team(){
                     />
                 ))} 
             </div>   
-            <hr class="bottom-divider"></hr>
+            <hr className="bottom-divider"></hr>
 
             {/* need the footer */}
             <Footer></Footer>

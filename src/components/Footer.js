@@ -21,7 +21,7 @@ Stony Brook, NY 11794-2200</h4>
                     <li className="social-logo-box"><a className="social-logo" href="https://discord.com/invite/9TZcjyUhHS"><FaDiscord></FaDiscord></a></li>
                 </ul>
 
-                <div class="footer-bottom">
+                <div className="footer-bottom">
                     <p>copyright &copy;2023, made with <span className="heart">&hearts;</span> by <span>The SBCS Team</span>.</p>
                 </div>
                 

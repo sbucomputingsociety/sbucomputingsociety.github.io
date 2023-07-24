@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //Import Pages to be used for Routing.j
 import App from './App';
-import Team from './pages/TeamPage/Team';
+import Team from './pages/TeamPage/TeamPage';
 import EventPage from './components/EventPage';
 import Sponsors from './pages/SponsorPage/Sponsors'
 import Contact from './components/Contact'
