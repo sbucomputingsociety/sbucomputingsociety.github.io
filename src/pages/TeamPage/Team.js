@@ -1,7 +1,7 @@
 import './Team.css';
-import Profile from './Profile';
-import NavBar from './NavBar';
-import Footer from './Footer';
+import Profile from '../../components/Profile';
+import NavBar from '../../components/NavBar';
+import Footer from '../../components/Footer';
 
 const members = [
     {
