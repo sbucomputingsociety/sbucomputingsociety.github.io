@@ -5,7 +5,6 @@ import './index.css';
 import App from './App';
 import Team from './components/Team';
 import EventPage from './components/EventPage';
-import Gallery from './components/Gallery'
 import Sponsors from './components/Sponsors'
 import Contact from './components/Contact'
 //Router and other imports
@@ -19,7 +18,6 @@ export default function Main() {
         <Route path="/" element={<App />}></Route>
         <Route path="/team" element={<Team />}></Route>
         <Route path="/eventpage" element={<EventPage/>}></Route>
-        <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/sponsors" element={<Sponsors />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>

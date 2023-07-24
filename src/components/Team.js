@@ -41,11 +41,6 @@ const members = [
         role: 'Junior Representative',
     },
     {
-        image: '',
-        name: 'Sharon Guan',
-        role: 'Sophomore Representative',
-    },
-    {
         image: 'pictures/teamProfiles/RiteshChavan.jpg',
         name: 'Ritesh Chavan',
         role: 'Sophomore Representative',

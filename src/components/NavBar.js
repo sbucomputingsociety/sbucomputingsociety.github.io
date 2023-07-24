@@ -18,7 +18,6 @@ function NavBar() {
                 <Link to="/#">Home</Link>
                 <Link to="/team">Team</Link>
                 <Link to="/eventpage">Events</Link>
-                <Link to="/gallery">Gallery</Link>
                 <Link to="/sponsors">Sponsors</Link>
                 <Link to="/contact">Contact</Link>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
