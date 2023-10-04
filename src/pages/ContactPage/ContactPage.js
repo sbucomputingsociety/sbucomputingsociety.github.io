@@ -14,7 +14,7 @@ function Contact(){
             </p>
             <div className="contact-outer">
                 <div className="contact-box">
-                    <img className="SBCS-logo-c" src="logos/computerIcon.png"></img>
+                    <img className="SBCS-logo-c" src="logos/newlogo.png"></img>
                     <h2 className="contact-title"> &lt;🐱Connect with Us💖&gt; </h2>
                     <a className="contact-stuff light-blue-c" href='https://discord.com/invite/9TZcjyUhHS'>Discord Server</a>
                     <a className="contact-stuff dark-blue-c" href='https://www.instagram.com/sbucomputingsociety/'>Instagram</a>

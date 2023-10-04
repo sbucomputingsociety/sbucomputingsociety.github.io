@@ -5,60 +5,34 @@ import Footer from '../../components/Footer';
 
 const members = [
     {
-        image: 'pictures/teamProfiles/mirfarid.jpg',
-        name: 'Mir Farid',
+        image: 'pictures/teamProfiles/AmirHamza.png',
+        name: 'Amir Hamza \'25',
         role: 'President',
-
     },
     {
-        image: 'pictures/teamProfiles/avishparmar.jpg',
-        name: 'Avish Parmar',
+        image: 'pictures/teamProfiles/RiteshChavan.png',
+        name: 'Ritesh Chavan \'25',
         role: 'Vice President',
     },
     {
-        image: 'pictures/teamProfiles/bryanlai.jpg',
-        name: 'Bryan Lai',
+        image: 'pictures/teamProfiles/SeanErfan.png',
+        name: 'Sean Erfan \'26',
         role: 'Secretary',
     },
     {
-        image: 'pictures/teamProfiles/amirhamza.jpeg',
-        name: 'Amir Hamza',
-        role: 'Community Chair',
+        image: 'pictures/teamProfiles/AtriVyas.jpg',
+        name: 'Atri Vyas \'26',
+        role: 'Treasurer',
     },
     {
-        image: 'pictures/teamProfiles/SeanErfan.jpg',
-        name: 'Sean Erfan',
-        role: 'Branding Manager',
+        image: 'pictures/teamProfiles/SitingZeng.png',
+        name: 'Siting Zeng \'25',
+        role: 'Event Coordinator',
     },
     {
         image: 'pictures/teamProfiles/AngelXie.png',
-        name: 'Angel Xie',
+        name: 'Angel Xie \'26',
         role: 'Webmaster',
-    },
-    {
-        image: 'pictures/teamProfiles/KyoshiNoda.jpg',
-        name: 'Kyoshi Noda',
-        role: 'Junior Representative',
-    },
-    {
-        image: 'pictures/teamProfiles/RiteshChavan.jpg',
-        name: 'Ritesh Chavan',
-        role: 'Sophomore Representative',
-    },
-    {
-        image: 'pictures/teamProfiles/KimberlyRamirez.jpg',
-        name: 'Kimberly Ramirez',
-        role: 'Freshman Representative',
-    },
-    {
-        image: 'pictures/teamProfiles/GraceWang.jpg',
-        name: 'Grace Wang',
-        role: 'Freshman Representative',
-    },
-    {
-        image: 'pictures/teamProfiles/AtriVyas.jpg',
-        name: 'Atri Vyas',
-        role: 'Freshman Representative',
     },
 ]
 
