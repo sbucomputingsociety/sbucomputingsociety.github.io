@@ -30,6 +30,11 @@ const members = [
         role: 'Event Coordinator',
     },
     {
+        image: 'pictures/teamProfiles/VeronicaMathur.png',
+        name: 'Veronica Mathur \'25',
+        role: 'Branding Manager',
+    },
+    {
         image: 'pictures/teamProfiles/AngelXie.png',
         name: 'Angel Xie \'26',
         role: 'Webmaster',

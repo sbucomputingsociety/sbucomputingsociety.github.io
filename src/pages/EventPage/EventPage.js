@@ -17,6 +17,9 @@ const upcomingEvents =[
         location: 'NEW COMPUTER SCIECE 120',
         description: 'Join for a night of fun! Relax and social with other engineering students through SBCS! :)',
     },
+]
+
+const pastEvents = [
     {
         title: 'Machine Learning Workshop',
         image: 'posters/ML.png',
@@ -24,9 +27,6 @@ const upcomingEvents =[
         location: 'OLD COMPUTER SCIECE 2120',
         description: 'Join us for a machine learning workshop to get hands on experience on machine learning project to put on your resume.',
     },
-]
-
-const pastEvents = [
     {
         title: 'Resume Review',
         image: 'posters/ResumeReview.png',

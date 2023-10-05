@@ -24,13 +24,6 @@ function App() {
         location: 'NEW COMPUTER SCIECE 120',
         description: 'Join for a night of fun! Relax and social with other engineering students through SBCS! :)',
     },
-    {
-        title: 'Machine Learning Workshop',
-        image: 'posters/ML.png',
-        date: 'WEDS, Oct 4th, 2023 5:30PM - 6:30PM',
-        location: 'OLD COMPUTER SCIECE 2120',
-        description: 'Join us for a machine learning workshop to get hands on experience on machine learning project to put on your resume.',
-    },
   ]
 
   return (
