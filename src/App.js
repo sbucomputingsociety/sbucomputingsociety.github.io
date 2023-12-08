@@ -15,16 +15,17 @@ import Footer from './components/Footer';
 
 function App() {
 
-  // Upcoming events
-  const events = [
-    {
-        title: 'Trivia Night',
-        image: 'posters/TriviaNight.png',
-        date: 'WEDS, Oct 11th, 2023 6:00PM - 7:00PM',
-        location: 'NEW COMPUTER SCIECE 120',
-        description: 'Join for a night of fun! Relax and social with other engineering students through SBCS! :)',
-    },
+  /** Format for upcoming events
+   *    {title: '',
+   *    image: '',
+   *    date: '',
+   *    location: '',
+   *    description: '',},
+   */
+  const upcomingEvents = [
+    
   ]
+  
 
   return (
     <div className="App tracking-wide font-glory text-neutral-700 bg-white">
@@ -40,11 +41,15 @@ function App() {
       <AboutUs></AboutUs>
 
       {/* Upcoming */}
-      <div className="divider-ylw"></div>
-      <div className="divider-ylw"></div>
-      <div>
-        <Events item={events}></Events>
-      </div>
+      {upcomingEvents.length > 0 && 
+      <>
+        <div className="divider-ylw"></div>
+        <div className="divider-ylw"></div>
+        <div>
+          <Events item={upcomingEvents}></Events>
+        </div>
+      </>
+      }
 
       {/* Stay Connected */}
       
