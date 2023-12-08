@@ -42,7 +42,7 @@ function AboutUs() {
                 <TeamPicSlider className="team-pic"></TeamPicSlider>
                 <div className="text-box">
                     <h3 className="about-us-title">About Us</h3>
-                    <h4 className="about-us-para">At SBCS, we hope to create a welcoming and fun environment for anyone interested in computer science. As an official chapter of the Association for Computing Machinery, the world's largest educational and scientific computing society, we strive to share both educational resources and professional networking opportunities with our members. </h4>
+                    <h4 className="about-us-para">At SBCS, we help to create a welcoming and fun environment for anyone interested in computer science. As an official chapter of the Association for Computing Machinery, we strive to share both educational resources and professional networking opportunities with our members, such as technical workshops and company events. </h4>
                     <div className="about-us-btn-box">
                         <HashLink className="about-us-btn" smooth to='#jump'>Our Initiatives</HashLink>
                     </div>

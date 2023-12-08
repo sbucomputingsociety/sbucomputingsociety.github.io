@@ -21,7 +21,7 @@ function Intro() {
             <div className="moving-container">
                 <div className="intro-text">
                     <span className="sbcs-intro"></span>
-                    <h4 className="sbcs-description">The Stony Brook Computing Society is a student organization at Stony Brook University created for all students who are interested in programming, computers, and related technology.</h4>
+                    <h4 className="sbcs-description">The Stony Brook Computing Society is a student-run organization at Stony Brook University for all students interested in computers, programming, and related technology to help build technical skills, network with others, and form lasting connections.</h4>
                     <a className="get-involved-btn" href="https://www.instagram.com/sbucomputingsociety/">Get Involved</a>
                 </div>
                 <img className="computer-logo" src="logos/web-logo-b-cropped.png" alt="logo"></img>
