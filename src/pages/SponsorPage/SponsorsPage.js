@@ -10,7 +10,7 @@ const sponsList = [
     '../logos/Blackrock-logo.png',
     '../logos/Google-logo.jpg',
     '../logos/Meta-logo.png',
-    '../logos/Microsoft-logo.png',
+    '../logos/Microsoft-Logo.png',
     '../logos/Softheon-logo.png',
 ]
 
