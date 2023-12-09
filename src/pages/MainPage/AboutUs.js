@@ -10,22 +10,19 @@ import {useEffect} from "react";
 
 const inits = [
     {
-        link: '#',
-        image: 'posters/GBM_1_Intro_9_14_2022.jpg',
+        image: 'posters/ML.png',
         title: 'Technical Workshops',
-        description: 'Led by eboard memebrs, these meetings introduce cs concepts and skillsets relavent to career success.'
+        description: 'Led by E-Board members, these workshops introduce key programming concepts and technical skills for career success.'
     },
     {
-        link: '#',
-        image: 'posters/SBCS_Mentorship_Program_Flyer.png',
-        title: 'Special Programs',
-        description: 'Striving to share resources, we offer mentorships that connect members with experienced alumini.'
+        image: 'posters/ResumeReview.png',
+        title: 'Career Planning',
+        description: "SBCS hosts career events to improve resumes, learn about the tech industry, and connect them with potential employers."
     },
     {
-        link: '#',
-        image: 'pictures/gallary/Roth3.jpg',
+        image: 'posters/DailyProgramming.jpg',
         title: 'Club Events',
-        description: 'SBCS work with clubs and faculty members to host guest speakers, competitions, socials, and more!'
+        description: 'We manage many events and activities to build a close community of members like competitions, daily programming exercises, socials, and more!'
     },
 ]
 //------------------------------------------

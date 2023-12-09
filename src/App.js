@@ -23,7 +23,13 @@ function App() {
    *    description: '',},
    */
   const upcomingEvents = [
-    
+    {
+      title: 'Empowering Voices in FinTech with Morgan Stanley',
+      image: 'posters/MorganStanley.jpg',
+      date: 'WEDS, November 29th - 6PM',
+      location: 'Javits 103',
+      description: 'Join us for an evening panel as we bring together minority speakers who are shaping the future of the FinTech industry at Morgan Stanley!'
+    }
   ]
   
 
@@ -40,7 +46,7 @@ function App() {
       <div className="divider-wht"></div>
       <AboutUs></AboutUs>
 
-      {/* Upcoming */}
+      {/* Upcoming/Recent */}
       {upcomingEvents.length > 0 && 
       <>
         <div className="divider-ylw"></div>
