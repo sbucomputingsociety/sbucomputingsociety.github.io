@@ -23,7 +23,6 @@ const upcomingEvents =[
 
 const pastEvents = [
     {image: 'posters/MorganStanley.jpg'},
-    {image: 'posters/OpenAI.gif'},
     {image: 'posters/VeritonFundManagement.jpg'},
     {image: 'posters/TechnicalInterview.jpg'},
     {image: 'posters/ProjectWednesday.jpg'},
