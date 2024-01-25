@@ -18,6 +18,12 @@ import {useEffect} from "react";
  * 
  */
 const upcomingEvents =[
+    {
+        title: "YouthTech Bootcamp",
+        image: "posters/AWSBootcamp.jpg",
+        date: "February 23-24, 12PM - 4PM",
+        location: "SAC Ballroom B, Union Ballroom",
+    }
     
 ]
 

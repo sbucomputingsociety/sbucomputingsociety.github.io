@@ -13,7 +13,7 @@ function Events(props) {
 
   return (
       <div className="upcoming-box">
-        <h1 className="home-event-title">Recent Events</h1>
+        <h1 className="home-event-title">Upcoming Events</h1>
         <div className="home-event-card divide-y-2 divide-black">
           {props.item.map(i => (
             <EventCard

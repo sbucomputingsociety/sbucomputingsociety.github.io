@@ -24,11 +24,11 @@ function App() {
    */
   const upcomingEvents = [
     {
-      title: 'Empowering Voices in FinTech with Morgan Stanley',
-      image: 'posters/MorganStanley.jpg',
-      date: 'WEDS, November 29th - 6PM',
-      location: 'Javits 103',
-      description: 'Join us for an evening panel as we bring together minority speakers who are shaping the future of the FinTech industry at Morgan Stanley!'
+      title: 'YouthTech Bootcamp',
+      image: 'posters/AWSBootcamp.jpg',
+      date: 'February 23-24th, 12PM - 4PM',
+      location: 'SAC Ballroom B, Union Ballroom',
+      description: 'SBCS and Amazon Web Services are teaming up to give you YouthTech, a 2-day bootcamp aimed and teaching you AWS fundamentals! You do not any experience to attend, so registar now for this amazing opportunity!',
     }
   ]
   

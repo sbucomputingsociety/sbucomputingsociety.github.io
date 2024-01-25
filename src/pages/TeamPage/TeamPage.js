@@ -20,8 +20,8 @@ const members = [
         role: 'Secretary',
     },
     {
-        image: 'pictures/teamProfiles/AtriVyas.jpg',
-        name: 'Atri Vyas \'26',
+        image: 'pictures/teamProfiles/EduardoLozano.jpg',
+        name: 'Eduardo Lozano \'27',
         role: 'Treasurer',
     },
     {
@@ -32,11 +32,16 @@ const members = [
     {
         image: 'pictures/teamProfiles/VeronicaMathur.png',
         name: 'Veronica Mathur \'25',
+        role: 'Social Media Manager',
+    },
+    {
+        image: 'pictures/teamProfiles/JamieCalub.jpg',
+        name: 'Jamie Calub \'27',
         role: 'Branding Manager',
     },
     {
-        image: 'pictures/teamProfiles/AngelXie.png',
-        name: 'Angel Xie \'26',
+        image: 'pictures/teamProfiles/PoojaGinjupalli.jpg',
+        name: 'Pooja Ginjupalli \'26',
         role: 'Webmaster',
     },
 ]
