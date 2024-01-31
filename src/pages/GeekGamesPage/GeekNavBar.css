@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+#geeknav {
+  background-color: #1b1b1b;
+  border: 6px solid #e6e6e6;
+}

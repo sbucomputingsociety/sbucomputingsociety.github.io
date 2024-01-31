@@ -20,6 +20,7 @@ function NavBar() {
                 <Link to="/eventpage">Events</Link>
                 <Link to="/sponsors">Sponsors</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/geekgames">Geek Games</Link>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes/>
                 </button>

@@ -5,8 +5,9 @@ import './index.css';
 import App from './App';
 import Team from './pages/TeamPage/TeamPage';
 import EventPage from './pages/EventPage/EventPage';
-import Sponsors from './pages/SponsorPage/SponsorsPage'
-import Contact from './pages/ContactPage/ContactPage'
+import Sponsors from './pages/SponsorPage/SponsorsPage';
+import Contact from './pages/ContactPage/ContactPage';
+import GeekGames from './pages/GeekGamesPage/GeekGamesPage';
 //Router and other imports
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
@@ -20,6 +21,7 @@ export default function Main() {
         <Route path="/eventpage" element={<EventPage/>}></Route>
         <Route path="/sponsors" element={<Sponsors />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/geekgames" element={<GeekGames />}></Route>
       </Routes>
     </BrowserRouter>
   );
