@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaDiscord } from 'react-icons/fa';
 
 function Footer(){
     return (
-        <div className="footer-container">
+        <div className="footer-container text-center">
             <div className="footer-box">
                 <h4 className="footer-club-name">Stony Brook Computing Society</h4>
                 

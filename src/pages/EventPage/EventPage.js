@@ -19,11 +19,29 @@ import {useEffect} from "react";
  */
 const upcomingEvents =[
     {
+        title: "Intro-DUCK-tion to SBCS",
+        image: "posters/DuckPainting.jpg",
+        date: "February 6th, 5:30PM - 7PM",
+        location: "New CS 120",
+    },
+    {
         title: "YouthTech Bootcamp",
         image: "posters/AWSBootcamp.jpg",
         date: "February 23-24, 12PM - 4PM",
         location: "SAC Ballroom B, Union Ballroom",
-    }
+    },
+    {
+        title: "Google Field Trip",
+        image: "posters/GoogleFieldTrip.png",
+        date: "February 27th, 12:15PM - 4PM",
+        location: "111 8th Avenue, New York, NY",
+    },
+    {
+        title: "Geek Games",
+        image: "posters/GeekGames.jpg",
+        date: "March 22nd, 3PM - 8PM",
+        location: "SAC Ballroom B",
+    },
     
 ]
 

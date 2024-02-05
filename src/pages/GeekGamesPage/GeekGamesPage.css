@@ -87,6 +87,22 @@
   margin-bottom: -20px;
 }
 
+.geek-games-logo-container{
+  border: solid black 5px;
+  border-radius: 10px;
+  padding: 1rem;
+  
+  background-color: white;
+}
+
+.geek-games-logo-container img{
+  display: block;
+  width: 110%;
+  min-width: 250px;
+  height: auto;
+  object-position: center;
+}
+
 @media (max-width: 850px) {
   .connect-code-compete {
     width: 25em;

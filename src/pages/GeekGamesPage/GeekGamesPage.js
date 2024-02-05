@@ -1,7 +1,8 @@
 import "./GeekGamesPage.css";
 import NavBar from "./GeekNavBar";
 import Footer from "../../components/Footer";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Timer from "./CountDown";
 import Form from "./Form";
 import React, { useEffect } from "react";
@@ -16,6 +17,14 @@ function GeekGames() {
       document.body.classList.remove("geek-games-active");
     };
   }, []);
+
+  useEffect(() => {
+    Aos.init({duration: 750});
+  }, []);
+
+  const sponsList = [
+    "../logos/Stickermule-Logo.jpg"
+  ];
 
   return (
     <div className="geek-games-page">
@@ -54,6 +63,18 @@ function GeekGames() {
           <img src="connect-code-compete.png"></img>
         </div>
         <hr className="footer-line"></hr>
+
+        {/** Sponser list */}
+        
+        <h3 className="text-center text-white text-[4rem]">Huge thanks to our sponsers! &lt;3</h3>
+        <div className="each-sponsor">
+            {sponsList.map(s => (
+                  <div className="geek-games-logo-container" data-aos="fade-up">
+                      <img src={s} alt='logo'></img>
+                  </div>
+            ))}
+          </div>
+
         <Footer></Footer>
       </div>
     </div>
