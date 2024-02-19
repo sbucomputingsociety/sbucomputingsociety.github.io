@@ -5,13 +5,13 @@ import "aos/dist/aos.css";
 import {useEffect} from "react";
 
 const posts = [
-    {image:'posters/HotTopics.jpg',link:'https://www.instagram.com/p/C0VQCgPthT4/'},
+    {image:'posters/EBoardApplication.png',link:'https://docs.google.com/forms/d/e/1FAIpQLScV_dxocMtNr85a5uwQ8JBdeJGiGMZEX6CYtrtEVPNGtJBzlA/viewform?pli=1'},
     {image:'posters/TechnicalInterview.jpg',link:'https://www.instagram.com/p/CzCsRtMOFNd/'},
     {image:'posters/ProjectWednesday.jpg',link:'https://www.instagram.com/p/Cyys3pSuJH0/'},
     {image:'posters/ResumeReview.png',link:'https://www.instagram.com/p/Cxby8GStjK9/'},
     {image:'posters/Metaverse.png',link:'https://www.instagram.com/p/Cw3bO87vKzD/'},
     {image:'posters/MousepadPainting.jpg',link:'https://www.instagram.com/p/CxHbXORO-xz/'},
-]
+];
 
 function StayConnected(){
     useEffect(() => {

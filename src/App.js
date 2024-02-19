@@ -28,7 +28,7 @@ function App() {
       image: 'posters/AWSBootcamp.jpg',
       date: 'February 23-24th, 12PM - 4PM',
       location: 'SAC Ballroom B, Union Ballroom',
-      description: 'SBCS and Amazon Web Services are teaming up to give you YouthTech, a 2-day bootcamp aimed and teaching you AWS fundamentals! You do not any experience to attend, so registar now for this amazing opportunity!',
+      description: 'SBCS and Amazon Web Services are teaming up to give you YouthTech, a 2-day bootcamp aimed and teaching you AWS fundamentals! You do not need any experience to attend, so registar now for this amazing opportunity!',
     }
   ]
   

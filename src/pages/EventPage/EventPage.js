@@ -19,12 +19,6 @@ import {useEffect} from "react";
  */
 const upcomingEvents =[
     {
-        title: "Intro-DUCK-tion to SBCS",
-        image: "posters/DuckPainting.jpg",
-        date: "February 6th, 5:30PM - 7PM",
-        location: "New CS 120",
-    },
-    {
         title: "YouthTech Bootcamp",
         image: "posters/AWSBootcamp.jpg",
         date: "February 23-24, 12PM - 4PM",
@@ -46,6 +40,8 @@ const upcomingEvents =[
 ]
 
 const pastEvents = [
+    {image: 'posters/itengineeringmixer.jpg'},
+    {image: 'posters/DuckPainting.jpg'},
     {image: 'posters/MorganStanley.jpg'},
     {image: 'posters/VeritonFundManagement.jpg'},
     {image: 'posters/TechnicalInterview.jpg'},
@@ -64,8 +60,6 @@ const pastEvents = [
     {image: 'posters/careerfairprep.png'},
     {image: 'posters/Intro_to_web_dev_9_28_2022.png'},
     {image: 'posters/datasciencehackathonapril2022.png'},
-    {image: 'posters/courseschedulingfall2021.png'},
-    {image: 'posters/itengineeringmixer.jpg'},
 ]
 
 function EventPage(props) {

@@ -31,7 +31,7 @@
 .home-event-card{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 8rem;
     padding-right: 8rem;
 
