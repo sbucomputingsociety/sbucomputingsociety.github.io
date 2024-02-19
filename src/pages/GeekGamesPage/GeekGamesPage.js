@@ -70,7 +70,7 @@ function GeekGames() {
         <div className="each-sponsor">
             {sponsList.map(s => (
                   <div className="geek-games-logo-container" data-aos="fade-up">
-                      <img src={s} alt='logo'></img>
+                      <a href="https://www.stickermule.com/" target = "_blank" rel="noopener noreferrer"><img src={s} alt='logo'></img></a>
                   </div>
             ))}
           </div>

@@ -19,6 +19,12 @@ import {useEffect} from "react";
  */
 const upcomingEvents =[
     {
+        title: "Starstruck Startups",
+        image: "posters/starstruck_startups.png",
+        date: "February 20th, 5:30PM - 7PM",
+        location: "New CS 120",
+    },
+    {
         title: "YouthTech Bootcamp",
         image: "posters/AWSBootcamp.jpg",
         date: "February 23-24, 12PM - 4PM",
