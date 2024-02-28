@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import {useEffect} from "react";
 
 const posts = [
-    {image:'posters/EBoardApplication.png',link:'https://docs.google.com/forms/d/e/1FAIpQLScV_dxocMtNr85a5uwQ8JBdeJGiGMZEX6CYtrtEVPNGtJBzlA/viewform?pli=1'},
+    {image:'posters/GeekGamesGiveaway.png',link:'http://tinyurl.com/2dt9uaua'},
     {image:'posters/TechnicalInterview.jpg',link:'https://www.instagram.com/p/CzCsRtMOFNd/'},
     {image:'posters/ProjectWednesday.jpg',link:'https://www.instagram.com/p/Cyys3pSuJH0/'},
     {image:'posters/ResumeReview.png',link:'https://www.instagram.com/p/Cxby8GStjK9/'},

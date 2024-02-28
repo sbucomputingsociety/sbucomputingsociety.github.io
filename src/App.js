@@ -24,12 +24,12 @@ function App() {
    */
   const upcomingEvents = [
     {
-      title: 'YouthTech Bootcamp',
-      image: 'posters/AWSBootcamp.jpg',
-      date: 'February 23-24th, 12PM - 4PM',
-      location: 'SAC Ballroom B, Union Ballroom',
-      description: 'SBCS and Amazon Web Services are teaming up to give you YouthTech, a 2-day bootcamp aimed and teaching you AWS fundamentals! You do not need any experience to attend, so registar now for this amazing opportunity!',
-    }
+      title: 'GEEK GAMES',
+      image: 'posters/GeekGames.png',
+      date: 'March 22nd, 3PM - 8PM',
+      location: 'SAC Ballroom B',
+      description: 'Join us for this annual SBCS competition where you and you\'re team will compete in 3 seperate games to win prizes! While 2 of the games are coding related, no previous coding experience is required! We have $2,500 worth of prizes and just by registering, you\'ll be entered into a raffle to win a pair of Sony Headphones, so register now and bring your friends to this epic showdown!',
+    },
   ]
   
 
