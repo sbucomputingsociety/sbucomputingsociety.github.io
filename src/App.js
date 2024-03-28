@@ -24,11 +24,11 @@ function App() {
    */
   const upcomingEvents = [
     {
-      title: 'GEEK GAMES',
-      image: 'posters/GeekGames.png',
-      date: 'March 22nd, 3PM - 8PM',
-      location: 'SAC Ballroom B',
-      description: 'Join us for this annual SBCS competition where you and you\'re team will compete in 3 seperate games to win prizes! While 2 of the games are coding related, no previous coding experience is required! We have $2,500 worth of prizes and just by registering, you\'ll be entered into a raffle to win a pair of Sony Headphones, so register now and bring your friends to this epic showdown!',
+      title: 'MORGAN STANLEY',
+      image: 'posters/MorganStanley2.jpg',
+      date: 'April 4th, 5:30PM - 7PM',
+      location: 'SAC 306',
+      description: 'Dive into the fintech universe with Morgan Stanley! Last semester’s session saw a wave of success, with many attendees receiving interview callbacks. Don’t miss out this golden opportunity. Join us on Thursday, April 4th at SAC 306 from 5:30-7PM. Don’t forget to register to stay in their system!',
     },
   ]
   

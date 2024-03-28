@@ -19,32 +19,31 @@ import {useEffect} from "react";
  */
 const upcomingEvents =[
     {
-        title: "Geek Games",
-        image: "posters/GeekGames.png",
-        date: "March 22nd, 3PM - 8PM",
-        location: "SAC Ballroom B",
+        title: "Morgan Stanley",
+        image: "posters/MorganStanley2.jpg",
+        date: "April 4th, 5:30PM - 7PM",
+        location: "SAC 306",
     },
     
 ]
 
 const pastEvents = [
+    {image: 'posters/GeekGames.png'},
+    {image: 'posters/ProfilePrep.png'},
     {image: 'posters/GoogleFieldTrip.png'},
     {image: 'posters/AWSBootcamp.jpg'},
     {image: 'posters/starstruck_startups.png'},
     {image: 'posters/DuckPainting.jpg'},
     {image: 'posters/MorganStanley.jpg'},
-    {image: 'posters/VeritonFundManagement.jpg'},
     {image: 'posters/TechnicalInterview.jpg'},
     {image: 'posters/ProjectWednesday.jpg'},
     {image: 'posters/ML.png'},
     {image: 'posters/ResumeReview.png'},
     {image: 'posters/Metaverse.png'},
     {image: 'posters/Smores2_1_23.png'},
-    {image: 'posters/chatGPT2_8_23.png'},
     {image: 'posters/API2_15_23.png'},
     {image: 'posters/gitworkshop_11_30_22.png'},
     {image: 'posters/Technical_Interviews_Pt._2_2.png'},
-    {image: 'posters/Technical_Interview_Prep_11_2_2022.png'},
     {image: 'posters/CodingContest_10_28_2022.png'},
     {image: 'posters/Landing_internships_for_dummies_10_5_2022.jpg'},
     {image: 'posters/careerfairprep.png'},

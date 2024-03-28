@@ -5,11 +5,11 @@ import "aos/dist/aos.css";
 import {useEffect} from "react";
 
 const posts = [
-    {image:'posters/GeekGamesGiveaway.png',link:'http://tinyurl.com/2dt9uaua'},
-    {image:'posters/TechnicalInterview.jpg',link:'https://www.instagram.com/p/CzCsRtMOFNd/'},
-    {image:'posters/ProjectWednesday.jpg',link:'https://www.instagram.com/p/Cyys3pSuJH0/'},
-    {image:'posters/ResumeReview.png',link:'https://www.instagram.com/p/Cxby8GStjK9/'},
-    {image:'posters/Metaverse.png',link:'https://www.instagram.com/p/Cw3bO87vKzD/'},
+    {image:'posters/MorganStanley2.jpg',link:'https://bit.ly/SBCSxMorganStanley'},
+    {image:'posters/GoogleFieldTrip.png',link:'https://news.stonybrook.edu/university/bridging-dreams-stony-brook-computing-society-spends-a-day-at-google/'},
+    {image:'posters/AWSBootcamp.jpg',link:'https://www.instagram.com/p/C2dguN5uv8B/'},
+    {image:'posters/starstruck_startups.png',link:'https://www.instagram.com/p/C3biatPOyN_/'},
+    {image:'posters/ProfilePrep.png',link:'https://www.instagram.com/p/C36eNyetJq8/?img_index=1'},
     {image:'posters/MousepadPainting.jpg',link:'https://www.instagram.com/p/CxHbXORO-xz/'},
 ];
 
