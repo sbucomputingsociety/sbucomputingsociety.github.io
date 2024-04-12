@@ -19,10 +19,10 @@ import {useEffect} from "react";
  */
 const upcomingEvents =[
     {
-        title: "Morgan Stanley",
-        image: "posters/MorganStanley2.jpg",
-        date: "April 4th, 5:30PM - 7PM",
-        location: "SAC 306",
+        title: "Goldman Sachs",
+        image: "posters/GoldmanSachs.png",
+        date: "April 18th, 6PM - 8PM",
+        location: "Javits 101",
     },
     
 ]

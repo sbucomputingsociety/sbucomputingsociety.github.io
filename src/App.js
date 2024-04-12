@@ -24,11 +24,11 @@ function App() {
    */
   const upcomingEvents = [
     {
-      title: 'MORGAN STANLEY',
-      image: 'posters/MorganStanley2.jpg',
-      date: 'April 4th, 5:30PM - 7PM',
-      location: 'SAC 306',
-      description: 'Dive into the fintech universe with Morgan Stanley! Last semester’s session saw a wave of success, with many attendees receiving interview callbacks. Don’t miss out this golden opportunity. Join us on Thursday, April 4th at SAC 306 from 5:30-7PM. Don’t forget to register to stay in their system!',
+      title: 'GOLDMAN SACHS',
+      image: 'posters/GoldmanSachs.png',
+      date: 'April 18th, 6PM - 8PM',
+      location: 'Javits 101',
+      description: 'Join us for an exciting opportunity to network and learn from industry leaders at Goldman Sachs! Take this chance to discover opportunities in FinTech, engage with panelists, and build your professional network with software engineers from Goldman!',
     },
   ]
   
