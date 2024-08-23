@@ -15,8 +15,8 @@ const members = [
         role: 'Vice President',
     },
     {
-        image: 'pictures/teamProfiles/SeanErfan.png',
-        name: 'Sean Erfan \'26',
+        image: 'pictures/teamProfiles/PoojaGinjupalli.jpg',
+        name: 'Pooja Ginjupalli \'26',
         role: 'Secretary',
     },
     {
@@ -25,8 +25,8 @@ const members = [
         role: 'Treasurer',
     },
     {
-        image: 'pictures/teamProfiles/SitingZeng.png',
-        name: 'Siting Zeng \'25',
+        image: 'pictures/teamProfiles/SeanErfan.png',
+        name: 'Sean Erfan \'26',
         role: 'Event Coordinator',
     },
     {
@@ -40,8 +40,8 @@ const members = [
         role: 'Branding Manager',
     },
     {
-        image: 'pictures/teamProfiles/PoojaGinjupalli.jpg',
-        name: 'Pooja Ginjupalli \'26',
+        image: 'pictures/teamProfiles/GraceWang.jpg',
+        name: 'Grace Wang \'26',
         role: 'Webmaster',
     },
 ]
