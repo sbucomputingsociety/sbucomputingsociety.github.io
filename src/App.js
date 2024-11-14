@@ -24,12 +24,12 @@ function App() {
    */
   const upcomingEvents = [
     {
-      title: 'GOLDMAN SACHS',
-      image: 'posters/GoldmanSachs.png',
-      date: 'April 18th, 6PM - 8PM',
-      location: 'Javits 101',
-      description: 'Join us for an exciting opportunity to network and learn from industry leaders at Goldman Sachs! Take this chance to discover opportunities in FinTech, engage with panelists, and build your professional network with software engineers from Goldman!',
-    },
+      title: "Thanksgiving Potluck",
+      image: "posters/potluck.jpeg",
+      date: "November 18th, 3PM - 4:30PM",
+      location: "LDS Bauman Center",
+      description: "Join us and your fellow CEAS club members at our Thanksgiving Potluck! Share and enjoy a memorable evening together with the CEAS community!"
+  },
   ]
   
 

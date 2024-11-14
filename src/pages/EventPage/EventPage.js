@@ -19,21 +19,17 @@ import {useEffect} from "react";
  */
 const upcomingEvents =[
     {
-        title: "Meet Prof. Skiena",
-        image: "posters/Skiena.png",
-        date: "April 15th, 4PM - 5PM",
-        location: "SAC 306",
+        title: "Thanksgiving Potluck",
+        image: "posters/potluck.jpeg",
+        date: "November 18th, 3PM - 4:30PM",
+        location: "LDS Bauman Center",
     },
-    {
-        title: "Goldman Sachs",
-        image: "posters/GoldmanSachs.png",
-        date: "April 18th, 6PM - 8PM",
-        location: "Javits 101",
-    },
+
     
 ]
 
 const pastEvents = [
+    {image: "posters/google-nvidia.jpeg"},
     {image: 'posters/MorganStanley2.jpg'},
     {image: 'posters/GeekGames.png'},
     {image: 'posters/ProfilePrep.png'},
